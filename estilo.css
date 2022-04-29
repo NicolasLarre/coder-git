@@ -1,0 +1,500 @@
+body {
+margin: 0%;
+background-color: hwb(0 95% 3%);}
+header { 
+    background-color: #ec618f;
+height: 120px;}
+header div {
+    padding: 2%;
+}
+header ul {
+    list-style-type: none;
+    display: flex;
+}
+header li { 
+    padding: 0 2px 0 2px;
+}
+header a {
+    color: #000;
+text-decoration: none;
+font-weight: bold;
+}
+.contiene-registro { 
+    background-color: white;
+}
+.registro { color: rgb(5, 10, 10);
+justify-content: flex-end;
+}
+.registro a {
+    color: gray;
+    font-size: 10px;
+}
+.logo {
+    display: flex;
+    justify-content: space-between;
+}
+.logo ul {
+    justify-content: space-between;
+    width: 80%;
+ }
+ .logo img { width: 100px;
+    height: 100px;
+position: relative;
+bottom: 38px;
+left: 10px;
+}
+.logo a {
+    font-family: 'Roboto', sans-serif;
+    position: relative;
+    right: 80px;
+}
+/* Fin de barra navegacion */
+
+/* CONFIGURACION DE INICIO DE SESION */
+    
+.sesion-1 {
+    text-align: center;
+    border: solid black;
+    color: black;
+    font-size: 10px;}
+        
+/* INCIAR SESION */
+.sesion-2 h3 { 
+    margin:0%;
+    padding: 25px;}
+        
+/* Cuadro englobador y correo/contraseña */
+.sesion-2 {
+    position: relative;
+    top: 5px;
+    width: 250px;
+    height: 200px;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #666668;
+    text-align: center;
+    box-shadow:  2px 5px 30px #000;
+    margin: auto;
+    color: white;}
+        
+.sesion-2 div input { 
+    border: solid hsl(192, 64%, 47%);
+}
+
+/*olvidaste tu contraseña?  */
+.sesion-2 p a{ 
+    color: white;
+    position: relative;
+    top: 10px;
+    text-decoration: none;
+}
+        
+/* BOTON INGRESAR */
+.sesion-3 input{ 
+    position: relative;
+    top: 10px;}
+        
+/* si sos nuevo */
+.aside-2 h3 {
+    position: relative;
+    top: 5px;
+    font-size: 15px;
+    font-family: Arial, Helvetica, sans-serif
+}
+.aside-2 input { 
+    text-align: center;
+    border: solid hsl(192, 64%, 47%);
+    font-family: Arial, Helvetica, sans-serif;font-weight: bold;}
+        
+/* REGISTRARME */
+.registrate-main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.registrate-1 { 
+    border: solid black;
+    text-align: center;
+}
+.registrate-2 {
+    text-align: center;
+    font-size: 15px;
+}
+.registrate-3 {
+     text-align: center;
+     font-size: 15px
+    }
+.registrate-4 h3{
+    font-size: 15px
+}
+.registrate-4 input {
+    font-size: 15px;
+}
+.boton-ingresar{
+    border: solid #060a0a;
+}
+
+/* productos */
+.intro-1 { 
+    text-align: center;
+}
+    
+/* introduccion 2 */
+.intro-2 {
+    text-align: center;
+    position: relative;
+    bottom: 20px;
+}
+        
+/* tamaño de gorras */
+.intro-2 img { 
+    height: 150px;
+    width: 150px;
+    /* Borde Sombrita */
+    border-radius: 5px;
+    box-shadow: 1px 10px 15px rgba(0,0,0,0.50);
+}
+    
+    
+/* introduccion 3 */
+.intro-3  { 
+    text-align: center;
+}
+        
+ /* config gorros de la lana */
+.intro-3 img {
+    height: 150px;
+    width: 150px;
+    border-radius: 5px;
+    box-shadow: 1px 10px 15px rgba(0,0,0,0.50);}
+    
+    /* aside */
+    aside { text-align: center;}
+       
+    /* configuracion de aros */
+    aside img { height: 150px;
+    width: 150px;
+    border-radius: 5px;
+    box-shadow: 1px 10px 15px rgba(0,0,0,0.50);}
+    /* footer */
+    footer { 
+    display: flex;
+    flex-direction: column;
+    font-size: 10px;}   
+    footer a { 
+    position: relative;
+    left: 50px;
+    color: black;
+    text-decoration: none;}
+    footer h3 { 
+    text-align: center;
+    font-size: 10px;}
+    footer ul li {
+    text-align: center;
+    font-weight: bold;
+    display: inline-block;
+    text-decoration: none;}
+    /* fin del footer */
+/* Productos/ver mas */
+.ver-mas { 
+    display: flex;
+    justify-content: center;
+    position: relative;
+    right: 30px;
+}
+.ver-mas ul {
+    list-style-type: none;
+}
+.ver-mas a { 
+    text-decoration: none;
+}
+/* grid area */
+.h3-galeria {
+    text-align: center;
+}
+.galeria img {
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+}
+.galeria { 
+    display: grid;
+    grid-template-columns: repeat(3, 105px);
+    grid-template-rows: 150px 150px 150px;
+    grid-gap: 2px;
+}
+
+/* nosotras */
+.nosotras-3 h3{
+    position: relative;
+    bottom: 30px
+}
+.nosotras img {
+    position: relative;
+    bottom: 30px;
+}
+@media screen and (min-width: 768px){
+hr { border: solid #6d6665} 
+    
+/* header */
+header { 
+    height: 150px;
+}
+.registro a { 
+    font-size: 15px;
+}
+    
+/* fin de barra de navegacion */
+
+/* MAIN */
+main {
+    font-size: 20px;
+} 
+
+     /* FOOTER */
+footer h3 {
+    font-size: 20px;
+}
+footer ul {
+    font-size: 15px;
+    text-align: center;
+    position: relative;
+    right: 60px;}
+    /* NOSOTRAS */
+.nosotras-0 h3{
+    font-size: 35px;
+}
+.nosotras-2 h3{
+    font-size: 40px;
+}
+.nosotras-3 img{
+    position: relative;
+    bottom: 50px;
+}
+.nosotras-3 h3 {
+    font-size: 30px;
+}
+
+/* INCIAR SESION */
+.aside-2 { 
+    position: relative;
+    top: 20px;
+}
+footer { 
+    position: relative;
+    top: 35px;
+}
+.hr-sesion {
+    position: relative;
+    top: 40px;
+}
+.sesion-3 a{ 
+        color: white;
+        position: relative;
+        bottom: 20px;
+    }
+/*REGISTRARME */
+.registrate-1 { 
+    font-size: 20px;
+}
+.registrate-2 div { 
+    font-size: 15px;
+}
+.registrate-2 input {
+    font-size: 15px;
+}
+.registrate-3 div { 
+    font-size: 15px;
+    }
+.registrate-3 input {
+    font-size: 15px;
+}
+.registrate-4 { 
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    }
+.registrate-4 div h3{
+    font-size: 20px;}
+.registrate-4 div input {
+    font-size: 15px;
+}
+.boton-ingresar{
+    border: solid #060a0a;
+}
+hr { 
+    position: relative;
+    top: 30px;
+}
+footer { 
+    position: relative;
+    top: 50px;}
+
+/* galeria */
+.galeria { 
+    display: grid;
+    grid-template-columns: repeat(3, 240px);
+    grid-template-rows: repeat(3,280);
+    grid-gap: 10px;
+
+}
+.galeria img {
+    object-fit: cover;
+    width: 90%;
+    height: 90%;
+}
+}
+@media screen and (min-width: 1024px){
+
+
+/* Barra Navegacion */
+.navegacion { width: 1009px;
+    text-align: center;
+    font-size: 20px;}
+.logo img {
+    display: flex;
+    justify-content: start;
+    position: relative;
+    bottom: 70px;
+    height: 150px;
+}
+        
+     /* NOSOTRAS */
+.nosotras-0 {font-size: 35px;
+height: 150px;}
+.nosotras img {height: 70%;
+width: 70%;}
+.nosotras-2 h3{font-size: 40px;
+position: relative;
+top: 60px;}
+.nosotras-3 img{
+    position: relative;
+    bottom: 100px;
+    height: 70%;
+    width: 70%;
+}
+
+
+/*REGISTRARME */
+.registrate-1 { 
+            font-size: 20px;
+        }
+.registrate-2 div { 
+            font-size: 15px;
+        }
+.registrate-2 input {
+            font-size: 15px;
+        }
+.registrate-3 div { 
+            font-size: 15px;
+            }
+.registrate-3 input {
+            font-size: 15px;
+        }
+.registrate-4 { 
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            }
+.registrate-4 div h3{
+            font-size: 20px;
+        }
+.registrate-4 div input {
+            font-size: 15px;
+        }
+.boton-ingresar{
+            border: solid #060a0a;
+        }
+
+}
+@media screen and (min-width: 1330px)
+{ body { 
+    margin: 0%;
+}
+/* BARRA DE NAVEGACION */
+.navegacion {
+    padding-right: 1%;
+    width: 1320px;
+    height: 100px;
+} 
+.navegacion ul li a {
+    position: relative;
+    top: 15px;
+    font-weight: bold;}
+/* INICIO DE SESION */
+
+.aside-2 h3 { 
+    font-size: 50px;
+}
+/* IMAGEN CLICK */
+.logo img {
+position: relative;
+bottom: 70px;}
+
+/* NOSOTRAS */
+.nosotras-0 {
+    font-size: 35px;
+    height: 150px;
+}
+.nosotras-2 {
+    font-size: 80px;
+    height: 300px;
+}
+.nosotras-3 img{
+    position: relative;
+    bottom: 100px;
+}
+
+/* nosotras */
+.nosotras-0 h3{ 
+     text-align: center;
+     font-size: 20px;}
+.nosotras div { 
+    text-align: center;
+}
+.nosotras img { 
+    width: 90%;
+    height: 90%;
+    border-radius: 5px;
+    box-shadow: 1px 10px 15px rgba(0,0,0,0.50);}
+    
+.nosotras-2 h3{
+    font-size: 20px;
+    font-style: normal;
+    font-weight: bold;
+    color: #080707;
+    text-shadow: 4px 4px 5px hsl(0, 1%, 50%);
+    text-align: center;}
+    
+.nosotras-3 img { 
+    width: 90%;
+    height: 90%;}
+    
+/* galeria */
+.galeria { 
+    display: grid;
+    grid-template-columns: repeat(3, 440px);
+    grid-template-rows: repeat(3,500);
+    grid-gap: 15px;
+
+}
+.galeria img {
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+}
+.logo li a { position: relative;
+bottom: 20px;}
+
+.sesion-2 {
+    position: relative;
+    top: 15px;
+    width: 350px;
+    height: 300px;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #666668;
+    text-align: center;
+    box-shadow:  2px 5px 30px #000;
+    margin: auto;
+    color: white;}
+
+}
