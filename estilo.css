@@ -49,6 +49,17 @@ left: 10px;
     right: 80px;
 }
 /* Fin de barra navegacion */
+/* Animaciones */
+.transformacion-1 img { 
+    transition-duration: 0.3s; 
+    transition-property: all;
+    transition-timing-function: ease;
+    transition-duration: .5s;
+}
+.transformacion-1 img:hover {
+     transform: scale(1.5); 
+}
+.no-transition { text-align: center;}
 
 /* CONFIGURACION DE INICIO DE SESION */
     
@@ -149,7 +160,7 @@ left: 10px;
 .intro-2 img { 
     height: 150px;
     width: 150px;
-    /* Borde Sombrita */
+/* Borde Sombrita */
     border-radius: 5px;
     box-shadow: 1px 10px 15px rgba(0,0,0,0.50);
 }
@@ -167,11 +178,14 @@ left: 10px;
     border-radius: 5px;
     box-shadow: 1px 10px 15px rgba(0,0,0,0.50);}
     
-    /* aside */
-    aside { text-align: center;}
+/* aside */
+aside { 
+    text-align: center;
+}
        
-    /* configuracion de aros */
-    aside img { height: 150px;
+/* configuracion de aros */
+aside img { 
+    height: 150px;
     width: 150px;
     border-radius: 5px;
     box-shadow: 1px 10px 15px rgba(0,0,0,0.50);}
@@ -206,6 +220,7 @@ left: 10px;
 }
 .ver-mas a { 
     text-decoration: none;
+    color: #000;
 }
 /* grid area */
 .h3-galeria {
@@ -232,6 +247,8 @@ left: 10px;
     position: relative;
     bottom: 30px;
 }
+
+
 @media screen and (min-width: 768px){
 hr { border: solid #6d6665} 
     
@@ -342,7 +359,15 @@ footer {
     width: 90%;
     height: 90%;
 }
+.ver-mas ul {
+    list-style-type: none;
 }
+.ver-mas a { 
+    text-decoration: none;
+    color: #000;
+}
+}
+
 @media screen and (min-width: 1024px){
 
 
@@ -405,7 +430,14 @@ top: 60px;}
             border: solid #060a0a;
         }
 
-}
+.ver-mas ul {
+            list-style-type: none;
+        }
+.ver-mas a { 
+            text-decoration: none;
+            color: #000;
+        }
+    }
 @media screen and (min-width: 1330px)
 { body { 
     margin: 0%;
@@ -497,4 +529,11 @@ bottom: 20px;}
     margin: auto;
     color: white;}
 
+.ver-mas ul {
+        list-style-type: none;
+    }
+.ver-mas a { 
+        text-decoration: none;
+        color: #000;
+    }
 }
