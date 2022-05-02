@@ -1,54 +1,7 @@
 body {
 margin: 0%;
-background-color: hwb(0 95% 3%);}
-header { 
-    background-color: #ec618f;
-height: 120px;}
-header div {
-    padding: 2%;
 }
-header ul {
-    list-style-type: none;
-    display: flex;
-}
-header li { 
-    padding: 0 2px 0 2px;
-}
-header a {
-    color: #000;
-text-decoration: none;
-font-weight: bold;
-}
-.contiene-registro { 
-    background-color: white;
-}
-.registro { color: rgb(5, 10, 10);
-justify-content: flex-end;
-}
-.registro a {
-    color: gray;
-    font-size: 10px;
-}
-.logo {
-    display: flex;
-    justify-content: space-between;
-}
-.logo ul {
-    justify-content: space-between;
-    width: 80%;
- }
- .logo img { width: 100px;
-    height: 100px;
-position: relative;
-bottom: 38px;
-left: 10px;
-}
-.logo a {
-    font-family: 'Roboto', sans-serif;
-    position: relative;
-    right: 80px;
-}
-/* Fin de barra navegacion */
+
 /* Animaciones */
 .transformacion-1 img { 
     transition-duration: 0.3s; 
@@ -188,26 +141,39 @@ aside img {
     height: 150px;
     width: 150px;
     border-radius: 5px;
-    box-shadow: 1px 10px 15px rgba(0,0,0,0.50);}
-    /* footer */
-    footer { 
+    box-shadow: 1px 10px 15px rgba(0,0,0,0.50);
+}
+
+/* footer */
+footer { 
     display: flex;
     flex-direction: column;
-    font-size: 10px;}   
-    footer a { 
+    font-size: 10px;
+}   
+footer a { 
     position: relative;
     left: 50px;
     color: black;
-    text-decoration: none;}
-    footer h3 { 
+    text-decoration: none;
+}
+footer h3 { 
     text-align: center;
-    font-size: 10px;}
-    footer ul li {
+    font-size: 10px;
+}
+footer ul li {
     text-align: center;
     font-weight: bold;
     display: inline-block;
-    text-decoration: none;}
-    /* fin del footer */
+    text-decoration: none;
+}
+.fa-brands { 
+    width: 100px;
+    height: 100px;
+    font-size: 50px;
+}
+
+/* fin del footer */
+
 /* Productos/ver mas */
 .ver-mas { 
     display: flex;
@@ -366,6 +332,20 @@ footer {
     text-decoration: none;
     color: #000;
 }
+.fa-brands { 
+    width: 80px;
+    height: 80px;
+    font-size: 30px;
+}
+.fa-instagram { 
+    color: palevioletred;
+}
+.fa-facebook { 
+    color: blue;
+}
+.fa-whatsapp {
+    color: #27df27;
+}
 }
 
 @media screen and (min-width: 1024px){
@@ -437,7 +417,12 @@ top: 60px;}
             text-decoration: none;
             color: #000;
         }
-    }
+.fa-brands { 
+            width: 80px;
+            height: 80px;
+            font-size: 25px;
+        }    
+}
 @media screen and (min-width: 1330px)
 { body { 
     margin: 0%;
