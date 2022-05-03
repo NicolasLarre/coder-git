@@ -357,250 +357,387 @@ footer .fa-whatsapp {
 /* grid area */
 .h3-galeria {
     text-align: center;
+    font-size: 40px;
 }
 .galeria img {
     object-fit: cover;
-    width: 100%;
-    height: 100%;
+    width: 80%;
+    height: 80%;
+    margin: 5px;
+    
 }
 .galeria { 
     display: grid;
-    grid-template-columns: repeat(3, 105px);
-    grid-template-rows: 150px 150px 150px;
-    grid-gap: 2px;
+    grid-template-columns: repeat(3, 320px);
+    grid-template-rows: repeat(3,320px);
+    grid-gap: 5px;
+    text-align: center;
 }
 
 @media screen and (min-width: 768px){
 hr { border: solid #6d6665}    
-/* MAIN */
-main {
-    font-size: 20px;
-} 
 
-     /* FOOTER */
-footer h3 {
-    font-size: 20px;
-}
 footer ul {
     font-size: 15px;
     text-align: center;
     position: relative;
-    right: 60px;}
-    /* NOSOTRAS */
-
-
-/* INCIAR SESION 
-.aside-2 { 
-    position: relative;
-    top: 20px;
+    right: 60px;
 }
-footer { 
-    position: relative;
-    top: 35px;
-}
-.hr-sesion {
-    position: relative;
-    top: 40px;
-}
-.sesion-3 a{ 
-        color: white;
-        position: relative;
-        bottom: 20px;
-    }
-/*REGISTRARME 
-.registrate-1 { 
-    font-size: 20px;
-}
-.registrate-2 div { 
-    font-size: 15px;
-}
-.registrate-2 input {
-    font-size: 15px;
-}
-.registrate-3 div { 
-    font-size: 15px;
-    }
-.registrate-3 input {
-    font-size: 15px;
-}
-.registrate-4 { 
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    }
-.registrate-4 div h3{
-    font-size: 20px;}
-.registrate-4 div input {
-    font-size: 15px;
-}
-.boton-ingresar{
-    border: solid #060a0a;
-}
-hr { 
-    position: relative;
-    top: 30px;
-}
-footer { 
-    position: relative;
-    top: 50px;}
-
-/* galeria */
-.galeria { 
-    display: grid;
-    grid-template-columns: repeat(3, 240px);
-    grid-template-rows: repeat(3,280);
-    grid-gap: 10px;
-
-}
-.galeria img {
-    object-fit: cover;
-    width: 90%;
-    height: 90%;
-}
-.ver-mas ul {
-    list-style-type: none;
-}
-.ver-mas a { 
-    text-decoration: none;
-    color: #000;
-}
-.fa-brands { 
-    width: 80px;
-    height: 80px;
-    font-size: 30px;
-}
-}
+}    
 
 @media screen and (min-width: 1024px){
-/* NOSOTRAS 
-.nosotras-0 {font-size: 35px;
-height: 150px;}
-.nosotras img {height: 70%;
-width: 70%;}
-.nosotras-2 h3{font-size: 40px;
-position: relative;
-top: 60px;}
-.nosotras-3 img{
+
+/* Barra de navegacion */
+nav { 
+    font-size: 15px;
+    font-weight: bold;
+}
+.dropdown-menu {
+    font-size: 12px;
+}
+.logo-amici { 
+    width: 100px;
+    height: 100px;
     position: relative;
-    bottom: 100px;
-    height: 70%;
-    width: 70%;
-}*/
-
-
-/*REGISTRARME 
-.registrate-1 { 
-            font-size: 20px;
-        }
-.registrate-2 div { 
-            font-size: 15px;
-        }
-.registrate-2 input {
-            font-size: 15px;
-        }
-.registrate-3 div { 
-            font-size: 15px;
-            }
-.registrate-3 input {
-            font-size: 15px;
-        }
-.registrate-4 { 
-            display: flex;
-            flex-direction: column;
-            align-items: center;
-            }
-.registrate-4 div h3{
-            font-size: 20px;
-        }
-.registrate-4 div input {
-            font-size: 15px;
-        }
-.boton-ingresar{
-            border: solid #060a0a;
-        }
-
-.ver-mas ul {
-            list-style-type: none;
-        }
-.ver-mas a { 
-            text-decoration: none;
-            color: #000;
-        }
-.fa-brands { 
-            width: 80px;
-            height: 80px;
-            font-size: 25px;
-        }    
+    top: 4px;
 }
-@media screen and (min-width: 1330px)
-{ body { 
-    margin: 0%;
+.form-control {
+    font-size: 20px;
 }
-/* INICIO DE SESION 
-
-.aside-2 h3 { 
-    font-size: 50px;
+.btn { 
+    font-size: 20px;
+    font-weight: bold;
+    color: #000;
+}
+.navbar-toggler {
+    font-size: 20px;
+}
+.navbar-collapse { 
+    height: 100px;
+}
+.navbar-na {height: 100px;
 }
 
-/* 
-nosotras 
-.nosotras-0 h3{ 
-     text-align: center;
-     font-size: 20px;}
-.nosotras div { 
+/* Main de index */
+.intro-1 h3{ 
     text-align: center;
+    font-size: 20px;
+    background-color: rgb(252, 143, 215);
+    font-family:'Heebo', sans-serif;
+    font-weight: bold;
+    margin: 3%;
+    border: solid rgb(252, 143, 215);
 }
-.nosotras img { 
-    width: 90%;
-    height: 90%;
+.intro-2 {
+    text-align: center;
+    margin: 5%;
+}
+.intro-2 h3 {
+    font-family:'Heebo', sans-serif;
+    font-weight: bold;
+    font-size: 20px;
+}
+/* tamaño de gorras */
+.intro-2 img { 
+    height: 200px;
+    width: 200px;
+/* Borde Sombrita */
+    border-radius: 5px;
+    box-shadow: 1px 10px 15px rgba(0,0,0,0.50);
+}
+    
+    
+/* introduccion 3 */
+.intro-3  { 
+    text-align: center;
+    margin: 5%;
+}
+        
+.intro-3 h3 {
+    font-family:'Heebo', sans-serif;
+    font-weight: bold;
+    font-size: 20px;
+} 
+/* config gorros de la lana */
+.intro-3 img {
+    height: 200px;
+    width: 200px;
     border-radius: 5px;
     box-shadow: 1px 10px 15px rgba(0,0,0,0.50);}
     
-.nosotras-2 h3{
-    font-size: 20px;
-    font-style: normal;
+/* aside */
+aside { 
+    text-align: center;
+    margin: 5%;
+}
+aside h3 {
+    font-family:'Heebo', sans-serif;
     font-weight: bold;
-    color: #080707;
-    text-shadow: 4px 4px 5px hsl(0, 1%, 50%);
+    font-size: 20px;
+}
+       
+/* configuracion de aros */
+aside img { 
+    height: 200px;
+    width: 200px;
+    border-radius: 5px;
+    box-shadow: 1px 10px 15px rgba(0,0,0,0.50);
+}
+/* Fin de main de index */
+/* Productos/ver mas */
+.ver-mas { 
+    display: flex;
+    justify-content: center;
+    position: relative;
+    right: 10px;
+}
+
+.ver-mas h3 { font-size: 20px;}
+
+/* Nosotras */
+.nosotras-0 h3{ 
+    text-align: center;
+    font-size: 20px;
+    font-weight: bold;
+    margin: 5%;
+    border: solid pink;
+}
+.nosotras div { 
+   text-align: center;
+}
+.nosotras img { 
+   width: 50%;
+   height: 50%;
+   border-radius: 5px;
+   box-shadow: 1px 10px 15px rgba(0,0,0,0.50);}
+   
+.nosotras-2 h3{
+   font-size: 30px;
+   font-style: normal;
+   font-weight: bold;
+   color: #080707;
+   text-shadow: 4px 4px 5px hsl(0, 1%, 50%);
+   text-align: center;
+   margin: 5%;
+}
+   
+.nosotras-3 img { 
+   width: 40%;
+   height: 40%;
+   margin: 5%;
+}
+.nosotros-3 h3 {
+    font-weight: bold;
+    font-size: 20px;
+}
+ /* Animaciones */
+.transformacion-1 img { 
+    transition-duration: 0.3s; 
+    transition-property: all;
+    transition-timing-function: ease;
+    transition-duration: .5s;
+}
+.transformacion-1 img:hover {
+     transform: scale(1.5); 
+}
+.no-transition { 
     text-align: center;
 }
-    
-.nosotras-3 img { 
-    width: 90%;
-    height: 90%;
-}*/
-    
-/* galeria 
-.galeria { 
-    display: grid;
-    grid-template-columns: repeat(3, 440px);
-    grid-template-rows: repeat(3,500);
-    grid-gap: 15px;
 
+/* CONFIGURACION DE INICIO DE SESION */
+    
+.sesion-1 h3{ 
+    font-size: 25px;
+    margin: 5%;
+    font-family: 'Heebo', sans-serif;
+    border: solid gray;
+    text-align: center;
 }
-.galeria img {
-    object-fit: cover;
-    width: 100%;
-    height: 100%;
+.sesion-2 h3 { 
+    font-size: 40px;
+    padding: 25px;
+    font-weight: bold;
 }
-
+        
+/* Cuadro englobador y correo/contraseña */
 .sesion-2 {
     position: relative;
-    top: 15px;
-    width: 350px;
-    height: 300px;
+    top: 10px;
+    width: 400px;
+    height: 350px;
     font-family: Arial, Helvetica, sans-serif;
     background-color: #666668;
     text-align: center;
     box-shadow:  2px 5px 30px #000;
     margin: auto;
     color: white;}
+        
+.sesion-2 div input { 
+    border: solid hsl(192, 64%, 47%);
+    font-size: 20px;
+    margin: 3%;
+}
 
-.ver-mas ul {
-        list-style-type: none;
+/*olvidaste tu contraseña?  */
+.sesion-2 div p a{ 
+    color: white;
+    position: relative;
+    top: 15px;
+    text-decoration: none;
+    font-size: 20px;
+}
+
+/* BOTON INGRESAR */
+.sesion-3 input{ 
+    position: relative;
+    top: 10px;
+}
+        
+/* si sos nuevo */
+.sesion-4 h3 {
+    position: relative;
+    top: 10px;
+    font-size: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 3%;
+}
+.sesion-4 input { 
+    text-align: center;
+    border: solid hsl(192, 64%, 47%);
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    font-size: 15px;
+}
+/* Fin de incio de sesion */
+
+/* REGISTRARME */
+.registrate-main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.registrate-1 { 
+    border: solid black;
+    text-align: center;
+}
+.registrate-1 h3 {
+    font-size: 30px;
+    font-family: 'Heebo', sans-serif;
+}
+.registrate-2 { 
+    text-align: center;
+
+}
+.registrate-2 h3{
+    position: relative;
+    top: 20px;
+    font-size: 25px;
+}
+.registrate-2 input {
+    position: relative;
+    top: 40px;
+    font-size: 20px;
+}
+.apellido-boton { 
+    text-align: center;
+}
+.apellido-boton h3 {
+    position: relative;
+    top: 80px;
+    font-size: 25px;
+}
+.apellido-boton input { 
+    position: relative;
+    top: 90px;
+    font-size: 20px;
+}
+.registrate-3 { 
+    text-align: center;
+    position: relative;
+    top: 130px;
+}
+.registrate-3 input{
+    position: relative;
+    top: 30px;
+    font-size: 20px;
     }
-.ver-mas a { 
-        text-decoration: none;
-        color: #000;
-    }*/
+.registrate-3 h3 {
+    font-size: 25px;
+}
+.contra-boton {
+    text-align: center;
+}
+.contra-boton input{
+    font-size: 20px;
+    position: relative;
+    top: 230px
+}
+.contra-boton h3 {
+    font-size: 25px;
+    position: relative;
+    top: 210px;
+}
+.registrate-4 h3{
+    font-size: 25px;
+    position: relative;
+    top: 240px;
+
+}
+.registrate-4 input {
+    font-size: 20px;
+    position: relative;
+    top: 270px;
+}
+.boton-ingresar{
+    border: solid #060a0a;
+}
+.registrate-main{
+  position: relative;
+  top: 100px;
+}
+/* footer */
+.fo-tamaño h3 { 
+    text-align: center;
+    font-size: 20px;
+}
+
+footer .fa-instagram { 
+    color: palevioletred;
+    font-size: 30px;
+}
+footer .fa-facebook { 
+    color: blue;
+    font-size: 30px;
+}
+footer .fa-whatsapp {
+    color: #27df27;
+    font-size: 30px;
+}
+/* fin del footer */
+
+
+/* grid area */
+.h3-galeria {
+    text-align: center;
+    font-size: 25px;
+}
+.galeria img {
+    object-fit: cover;
+    width: 70%;
+    height: 70%;
+    margin: 5px;
+    margin-left: 50px;
+
+    
+}
+.galeria { 
+    display: grid;
+    grid-template-columns: repeat(3, 320px);
+    grid-template-rows: repeat(3,320px);
+    grid-gap: 5px;
+    text-align: center;
+}
+
+
 }
