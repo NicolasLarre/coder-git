@@ -252,7 +252,15 @@ font-weight: bold;}
     flex-direction: column;
     align-items: center;
 }
-
+.englobador-registro {
+    width: 600px;
+    height: 85%;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #666668;
+    text-align: center;
+    box-shadow:  2px 5px 30px #000;
+    margin-top: 3%;
+}
 .registrate-1 { 
     border: solid black;
     text-align: center;
@@ -269,6 +277,7 @@ font-weight: bold;}
     position: relative;
     top: 20px;
     font-size: 40px;
+    color: white;
 }
 .registrate-2 input {
     position: relative;
@@ -282,6 +291,7 @@ font-weight: bold;}
     position: relative;
     top: 80px;
     font-size: 40px;
+    color: white;
 }
 .apellido-boton input { 
     position: relative;
@@ -300,6 +310,7 @@ font-weight: bold;}
     }
 .registrate-3 h3 {
     font-size: 40px;
+    color: white;
 }
 .contra-boton {
     text-align: center;
@@ -313,20 +324,26 @@ font-weight: bold;}
     font-size: 40px;
     position: relative;
     top: 210px;
+    color: white;
 }
 .registrate-4 h3{
     font-size: 35px;
     position: relative;
-    top: 240px;
+    top: 280px;
+    left: 10px;
+    color: white;
 
 }
 .registrate-4 input {
     font-size: 30px;
     position: relative;
-    top: 270px;
+    top: 300px;
+    left: 80px;
 }
-.boton-ingresar{
-    border: solid #060a0a;
+#boton-ingresar{
+    position: relative;
+    top: 380px;
+    right: 170px;
 }
 .registrate-main{
     height: 1100px;
@@ -402,6 +419,10 @@ footer ul {
     text-align: center;
     position: relative;
     right: 60px;
+}
+#boton-ingresar{
+    position: relative;
+    right: 180px;
 }
 }    
 
@@ -657,7 +678,8 @@ aside img {
 .registrate-2 input {
     position: relative;
     top: 40px;
-    font-size: 20px;
+    left: 20px;
+    font-size: 23px;
 }
 .apellido-boton { 
     text-align: center;
@@ -670,7 +692,8 @@ aside img {
 .apellido-boton input { 
     position: relative;
     top: 90px;
-    font-size: 20px;
+    left: 20px;
+    font-size: 23px;
 }
 .registrate-3 { 
     text-align: center;
@@ -680,7 +703,8 @@ aside img {
 .registrate-3 input{
     position: relative;
     top: 30px;
-    font-size: 20px;
+    left: 20px;
+    font-size: 23px;
     }
 .registrate-3 h3 {
     font-size: 25px;
@@ -689,9 +713,11 @@ aside img {
     text-align: center;
 }
 .contra-boton input{
-    font-size: 20px;
+    font-size: 23px;
     position: relative;
-    top: 230px
+    top: 250px;
+    left: 20px;
+
 }
 .contra-boton h3 {
     font-size: 25px;
@@ -701,21 +727,21 @@ aside img {
 .registrate-4 h3{
     font-size: 25px;
     position: relative;
-    top: 240px;
+    top: 260px;
 
 }
 .registrate-4 input {
-    font-size: 20px;
-    position: relative;
-    top: 270px;
+    font-size: 23px;
 }
-.boton-ingresar{
-    border: solid #060a0a;
+#boton-ingresar{
+    position: relative;
+    right: 140px;
+    top: 400px;
 }
 .registrate-main{
-  position: relative;
-  top: 100px;
-}
+    position: relative;
+    top: 50px;
+  }
 /* footer */
 .fo-tamaño h3 { 
     text-align: center;
