@@ -6,6 +6,7 @@ background-color: #bef3f3;
 nav { 
     font-size: 30px;
     font-weight: bold;
+    background-color: white;
 }
 .dropdown-menu {
     font-size: 25px;
@@ -17,19 +18,22 @@ nav {
 .form-control {
     font-size: 30px;
 }
-.btn { 
-    font-size: 30px;
+/* Todos los botones del nav */
+.navbar-light .navbar-nav .nav-link {
     font-weight: bold;
-    color: #000;
+    font-family: 'Heebo', sans-serif;
 }
+/* Munu despegable */
 .navbar-toggler {
     font-size: 40px;
 }
 .navbar-collapse { 
     height: 250px;
 }
+/* Dentro de Usuario */
 .navbar-na {height: 250px;
 }
+
 /* INDEX */
 .foto-header {
     background: aqua url(imagenes/header.jpeg);
