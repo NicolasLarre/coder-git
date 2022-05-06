@@ -53,8 +53,9 @@ nav {
     margin-top: 14%;
 }
 #imagenes-index div img{ 
-    width: 100%;
-    height: 500px;
+    width: 80%;
+    height: 600px;
+    margin: 1%;
 
 }
 
@@ -73,8 +74,8 @@ nav {
     background-color: rgb(252, 143, 215);
     font-family:'Heebo', sans-serif;
     font-weight: bold;
-    margin: 3%;
-    border-radius: 40%;
+    border-radius: 100%;
+    margin: 10%;
 }
 
 .intro-2 img { 
@@ -162,9 +163,10 @@ font-weight: bold;}
    height: 90%;
    margin: 5%;
 }
-.nosotros-3 h3 {
+.nosotras-3 h3 {
     font-weight: bold;
     font-size: 30px;
+    text-align: center;
 }
  /* Animaciones */
 .transformacion-1 img { 
@@ -230,6 +232,9 @@ font-weight: bold;}
 }
         
 /* si sos nuevo */
+.sesion-4 {
+    text-align: center;
+}
 .sesion-4 h3 {
     position: relative;
     top: 10px;
@@ -354,6 +359,7 @@ font-weight: bold;}
 footer { 
     background-color: hwb(240 91% 6%);
     border-top: solid black;
+    height: 100%;
 }   
 footer a { 
     position: relative;
@@ -466,18 +472,13 @@ nav {
     background-color: rgb(252, 143, 215);
     font-family:'Heebo', sans-serif;
     font-weight: bold;
-    margin: 3%;
     border: solid rgb(252, 143, 215);
 }
 .intro-2 {
     text-align: center;
     margin: 5%;
 }
-.intro-2 h3 {
-    font-family:'Heebo', sans-serif;
-    font-weight: bold;
-    font-size: 20px;
-}
+
 /* tamaño de gorras */
 .intro-2 img { 
     height: 200px;
@@ -494,11 +495,6 @@ nav {
     margin: 5%;
 }
         
-.intro-3 h3 {
-    font-family:'Heebo', sans-serif;
-    font-weight: bold;
-    font-size: 20px;
-} 
 /* config gorros de la lana */
 .intro-3 img {
     height: 200px;
@@ -506,21 +502,28 @@ nav {
     border-radius: 5px;
     box-shadow: 1px 10px 15px rgba(0,0,0,0.50);}
     
-/* aside */
-aside { 
+
+ .intro-4 {
+     text-align: center;
+     margin: 5%;
+ }   
+.intro-4 img {
+    height: 200px;
+    width: 200px;
+/* Borde Sombrita */
+    border-radius: 5px;
+    box-shadow: 1px 10px 15px rgba(0,0,0,0.50);
+
+}
+
+.intro-5 {
     text-align: center;
     margin: 5%;
 }
-aside h3 {
-    font-family:'Heebo', sans-serif;
-    font-weight: bold;
-    font-size: 20px;
-}
-       
-/* configuracion de aros */
-aside img { 
+.intro-5 img {
     height: 200px;
     width: 200px;
+/* Borde Sombrita */
     border-radius: 5px;
     box-shadow: 1px 10px 15px rgba(0,0,0,0.50);
 }
@@ -531,6 +534,7 @@ aside img {
     justify-content: center;
     position: relative;
     right: 10px;
+    top: 30px;
 }
 
 .ver-mas h3 { font-size: 20px;}
@@ -566,6 +570,7 @@ aside img {
    width: 40%;
    height: 40%;
    margin: 5%;
+   margin-left: 30%;
 }
 .nosotros-3 h3 {
     font-weight: bold;
@@ -773,7 +778,7 @@ footer .fa-whatsapp {
     width: 70%;
     height: 70%;
     margin: 5px;
-    margin-left: 220px;
+    margin-left: 3%;
     margin-top: 50px ; 
     
 }
@@ -782,7 +787,7 @@ footer .fa-whatsapp {
     grid-template-columns: repeat(3, 320px);
     grid-template-rows: repeat(3,320px);
     grid-gap: 5px;
-    text-align: center;
+    
 }
 
 
