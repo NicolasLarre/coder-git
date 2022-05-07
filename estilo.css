@@ -1,6 +1,5 @@
-body {
-margin: 0%;
-background-color: #bef3f3;
+body {margin: 0%;
+      background-color: #bef3f3;
 }
 /* Barra de navegacion */
 nav { 
@@ -186,6 +185,43 @@ font-weight: bold;}
     text-align: center;
 }
 
+/* Animacion Productos Disponibles */
+.intro-1 h3 {
+    animation: rosa-verde 3s ease
+}
+@keyframes rosa-verde {
+    0% { 
+        background-color: rgb(172, 143, 252);
+        transform: translate(170px);
+    
+    }
+
+    30% {
+        background-color: rgb(172, 143, 252);
+        transform: translate(170px);
+    }
+    
+    50% {
+        background-color: #0dcc0d;
+        transform: translate(130px);
+    }
+    
+    70% {
+        background-color: #f1e530;
+        transform: translate(60px);
+
+
+    }
+    100% {
+
+        background-color: red;
+        transform: rotatex(100px);
+        transform: translate(0px);
+        
+        
+    }
+}
+
 /* CONFIGURACION DE INICIO DE SESION */
     
 .sesion-1 h3{ 
@@ -347,7 +383,7 @@ font-weight: bold;}
     font-size: 30px;
     position: relative;
     top: 300px;
-    left: 80px;
+    left: 50px;
 }
 #boton-ingresar{
     position: relative;
@@ -395,7 +431,7 @@ footer .fa-whatsapp {
 }
 
 .foo-tamaño {
-    font-size: 30px;
+    font-size: 25px;
 }
 /* fin del footer */
 
@@ -477,7 +513,6 @@ nav {
     background-color: rgb(252, 143, 215);
     font-family:'Heebo', sans-serif;
     font-weight: bold;
-    border: solid rgb(252, 143, 215);
 }
 .intro-2 {
     text-align: center;
@@ -737,16 +772,19 @@ nav {
 .registrate-4 h3{
     font-size: 25px;
     position: relative;
-    top: 260px;
+    top: 280px;
 
 }
 .registrate-4 input {
     font-size: 23px;
+   position: relative;
+   top: 310px;
+   left: 75px;
 }
 #boton-ingresar{
     position: relative;
     right: 140px;
-    top: 400px;
+    top: 420px;
 }
 .registrate-main{
     position: relative;
@@ -767,6 +805,9 @@ footer .fa-whatsapp {
     color: #27df27;
     font-size: 40px;
 }
+.foo-tamaño {
+    font-size: 20px;
+}
 /* fin del footer */
 
 
@@ -781,7 +822,7 @@ footer .fa-whatsapp {
     width: 70%;
     height: 70%;
     margin: 5px;
-    margin-left: 70%;
+    margin-left: 30%;
     margin-top: 50px ; 
     
 }
