@@ -121,6 +121,7 @@ nav {
     justify-content: center;
     position: relative;
     right: 30px;
+    top: 25px;
 }
 
 .ver-mas ul {
@@ -288,6 +289,8 @@ font-weight: bold;}
     font-family: Arial, Helvetica, sans-serif;
     font-weight: bold;
     font-size: 30px;
+    position: relative;
+    bottom: 10px;
 }
 /* Fin de incio de sesion */
 
@@ -693,6 +696,8 @@ nav {
     font-family: Arial, Helvetica, sans-serif;
     font-weight: bold;
     font-size: 15px;
+    position: relative;
+    bottom: 20px;
 }
 /* Fin de incio de sesion */
 
@@ -808,6 +813,11 @@ footer .fa-whatsapp {
 .foo-tamaño {
     font-size: 20px;
 }
+#ubi-grande {
+    position: relative;
+    left: 50px;
+}
+
 /* fin del footer */
 
 
@@ -822,14 +832,14 @@ footer .fa-whatsapp {
     width: 70%;
     height: 70%;
     margin: 5px;
-    margin-left: 30%;
+    margin-left: 60%;
     margin-top: 50px ; 
     
 }
 .galeria { 
     display: grid;
-    grid-template-columns: repeat(3, 320px);
-    grid-template-rows: repeat(3,320px);
+    grid-template-columns: repeat(3, 350px);
+    grid-template-rows: repeat(3,350px);
     grid-gap: 5px;
     
 }
