@@ -63,13 +63,6 @@ nav {
 }
 
 /* Main de Productos */
-.main-1 { 
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    margin: 5%;
-}
 
 .intro-1 h3{ 
     text-align: center;
@@ -78,43 +71,15 @@ nav {
     font-family:'Heebo', sans-serif;
     font-weight: bold;
     border-radius: 100%;
-    margin: 10%;
+    margin: 5%;
+}
+#cartas .col-lg-4 {
+margin: 0%;
+padding: 25px;
 }
 
-.intro-2 img { 
-    height: 100%;
-    width: 100%;
-/* Borde Sombrita*/ 
-    border-radius: 5px;
-    box-shadow: 1px 10px 15px rgba(0,0,0,0.50);
-    margin-top: 5%;
-}
-.intro-3 img { 
-    height: 700px;
-    width: 900px;
-/* Borde Sombrita*/ 
-    border-radius: 5px;
-    box-shadow: 1px 10px 15px rgba(0,0,0,0.50);
-    margin-top: 5%;
-    text-align: center;
-}
-.intro-4 img {
-    height: 700px;
-    width: 900px;
-/* Borde Sombrita*/ 
-    border-radius: 5px;
-    box-shadow: 1px 10px 15px rgba(0,0,0,0.50);
-    margin-top: 5%;
-    text-align: center;
-}
-.intro-5 img {
-    height: 700px;
-    width: 900px;
-    border-radius: 5px;
-    box-shadow: 1px 10px 15px rgba(0,0,0,0.50);
-    margin-top: 5%;
-    text-align: center;
-}
+
+
 /* Productos/ver mas */
 .ver-mas { 
     display: flex;
@@ -132,7 +97,7 @@ nav {
     text-decoration: none;
     color: #000;
 }
-.ver-mas h3 { font-size: 50px;
+.ver-mas h3 { font-size: 30px;
 font-weight: bold;}    
 /* Fin de main de Productos */
 
@@ -173,15 +138,15 @@ font-weight: bold;}
     text-align: center;
 }
  /* Animaciones */
-.transformacion-1 img { 
-    transition-duration: 0.3s; 
-    transition-property: all;
-    transition-timing-function: ease;
-    transition-duration: .5s;
-}
-.transformacion-1 img:hover {
-     transform: scale(1.5); 
-}
+/* Index */
+
+
+
+/* Productos */
+#cartas .card:hover {
+    border: solid rgb(121, 100, 107);
+} 
+
 .no-transition { 
     text-align: center;
 }
@@ -214,12 +179,9 @@ font-weight: bold;}
 
     }
     100% {
-
         background-color: red;
         transform: rotatex(100px);
         transform: translate(0px);
-        
-        
     }
 }
 
@@ -386,12 +348,13 @@ font-weight: bold;}
     font-size: 30px;
     position: relative;
     top: 300px;
-    left: 50px;
+    left: 60px;
 }
 #boton-ingresar{
     position: relative;
     top: 380px;
     right: 170px;
+    font-size: 25px;
 }
 .registrate-main{
     height: 1100px;
@@ -577,7 +540,6 @@ nav {
     justify-content: center;
     position: relative;
     right: 10px;
-    top: 30px;
 }
 
 .ver-mas h3 { font-size: 20px;}
@@ -614,23 +576,6 @@ nav {
    height: 40%;
    margin: 5%;
    margin-left: 30%;
-}
-.nosotros-3 h3 {
-    font-weight: bold;
-    font-size: 20px;
-}
- /* Animaciones */
-.transformacion-1 img { 
-    transition-duration: 0.3s; 
-    transition-property: all;
-    transition-timing-function: ease;
-    transition-duration: .5s;
-}
-.transformacion-1 img:hover {
-     transform: scale(1.5); 
-}
-.no-transition { 
-    text-align: center;
 }
 
 /* CONFIGURACION DE INICIO DE SESION */
@@ -784,7 +729,7 @@ nav {
     font-size: 23px;
    position: relative;
    top: 310px;
-   left: 75px;
+   left: 80px;
 }
 #boton-ingresar{
     position: relative;
