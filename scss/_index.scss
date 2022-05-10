@@ -1,0 +1,29 @@
+.foto-header {
+    background: url(../imagenes/header.jpeg) aqua;
+    background-size: cover;
+    overflow: hidden;
+    
+    h3 { 
+      color: rgb(194, 8, 194);
+      background-color: white;
+      margin-top: 1%;
+  }
+    p {
+      color: #f358c5;
+      font-weight: bold;
+      font-family: Arial, Helvetica, sans-serif;
+      font-size: 70px;
+      position: relative;
+      top: 80px;
+    }
+    .off-abajo { 
+      margin-top: 14%;
+    }
+  }
+ 
+
+#imagenes-index div img{ 
+  width: 80%;
+  height: 600px;
+  margin: 1%;
+  }

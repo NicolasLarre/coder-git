@@ -1,0 +1,70 @@
+/* CONFIGURACION DE INICIO DE SESION */
+    
+.sesion-1 h3{ 
+    font-size: 40px;
+    margin: 5%;
+    font-family: 'Heebo', sans-serif;
+    border: solid gray;
+    text-align: center;
+  } 
+        
+  /* Cuadro englobador y correo/contraseña */
+  .sesion-2 {
+      position: relative;
+      top: 10px;
+      width: 600px;
+      height: 550px;
+      font-family: Arial, Helvetica, sans-serif;
+      background-color: #666668;
+      text-align: center;
+      box-shadow:  2px 5px 30px #000;
+      margin: auto;
+      color: white;
+    h3 { 
+      font-size: 60px;
+      padding: 25px;
+      font-weight: bold;
+    }
+    div input { 
+      border: solid hsl(192, 64%, 47%);
+      font-size: 40px;
+      margin: 3%;
+    }
+    div p a{ 
+      color: white;
+      position: relative;
+      top: 15px;
+      text-decoration: none;
+      font-size: 40px;
+    }
+  }
+         
+  
+  /* BOTON INGRESAR */
+  .sesion-3 input{ 
+    position: relative;
+    top: 10px;
+  }
+        
+  /* si sos nuevo */
+  .sesion-4 {
+    text-align: center;
+    h3 {
+      position: relative;
+      top: 10px;
+      font-size: 40px;
+      font-family: Arial, Helvetica, sans-serif;
+      margin: 3%;
+    }
+    input { 
+      text-align: center;
+      border: solid hsl(192, 64%, 47%);
+      font-family: Arial, Helvetica, sans-serif;
+      font-weight: bold;
+      font-size: 30px;
+      position: relative;
+      bottom: 10px;
+    }
+  }
+  
+  /* Fin de incio de sesion */

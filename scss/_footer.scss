@@ -1,0 +1,44 @@
+/* MOBILE */
+
+footer { 
+    background-color: hwb(240 91% 6%);
+    border-top: solid black;
+    height: 100%;
+    width: 100%;
+  
+    a { 
+        text-decoration: none;
+      }
+
+      ul li {
+        font-weight: bold;
+        display: inline-block;
+        text-decoration: none;
+        
+      }
+      
+      .fa-brands { 
+        width: 100px;
+        height: 100px;
+        margin-top: 15%;
+      }
+      
+      .fa-instagram { 
+        color: palevioletred;
+        font-size: 40px;
+      }
+      
+      .fa-facebook { 
+        color: blue;
+        font-size: 40px;
+      }
+      
+      .fa-whatsapp {
+        color: #27df27;
+        font-size: 40px;
+      }
+      
+      .foo-tamaño {
+        font-size: 25px;
+      }
+}   

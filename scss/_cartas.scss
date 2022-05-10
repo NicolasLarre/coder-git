@@ -1,0 +1,35 @@
+  /* Main de Productos */
+  
+  .intro-1 h3{ 
+    text-align: center;
+    font-size: 45px;
+    background-color: rgb(252, 143, 215);
+    font-family:'Heebo', sans-serif;
+    font-weight: bold;
+    border-radius: 100%;
+    margin: 5%;
+  }
+  #cartas .col-lg-4 {
+  margin: 0%;
+  padding: 25px;
+  }
+  
+  /* Productos/ver mas */
+  .ver-mas { 
+    display: flex;
+    justify-content: center;
+    position: relative;
+    right: 30px;
+    top: 25px;
+    ul {
+      list-style-type: none;
+     }
+     a { 
+      text-decoration: none;
+      color: #000;
+    }
+     h3 { font-size: 30px;
+      font-weight: bold;} 
+  
+  }
+      /* Fin de main de Productos */

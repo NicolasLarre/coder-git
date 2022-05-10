@@ -1,0 +1,20 @@
+  /* grid area */
+  .h3-galeria {
+    text-align: center;
+    font-size: 40px;
+  }
+   
+  .galeria { 
+    display: grid;
+    grid-template-columns: repeat(3, 320px);
+    grid-template-rows: repeat(3,320px);
+    grid-gap: 5px;
+    text-align: center;
+    img {
+      object-fit: cover;
+      width: 80%;
+      height: 80%;
+      margin: 5px;
+      
+    }
+  }
