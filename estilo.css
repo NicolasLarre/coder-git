@@ -1,85 +1,211 @@
-body {
-margin: 0%;
-background-color: hwb(0 95% 3%);}
-header { 
-    background-color: #ec618f;
-height: 120px;}
-header div {
-    padding: 2%;
+body {margin: 0%;
+      background-color: #bef3f3;
 }
-header ul {
-    list-style-type: none;
-    display: flex;
-}
-header li { 
-    padding: 0 2px 0 2px;
-}
-header a {
-    color: #000;
-text-decoration: none;
-font-weight: bold;
-}
-.contiene-registro { 
+/* Barra de navegacion */
+nav { 
+    font-size: 30px;
+    font-weight: bold;
     background-color: white;
 }
-.registro { color: rgb(5, 10, 10);
-justify-content: flex-end;
+.dropdown-menu {
+    font-size: 25px;
 }
-.registro a {
-    color: gray;
-    font-size: 10px;
+.logo-amici { 
+    width: 200px;
+    height: 200px;
 }
-.logo {
-    display: flex;
-    justify-content: space-between;
+.form-control {
+    font-size: 30px;
 }
-.logo ul {
-    justify-content: space-between;
-    width: 80%;
- }
- .logo img { width: 100px;
-    height: 100px;
-position: relative;
-bottom: 38px;
-left: 10px;
+/* Todos los botones del nav */
+.navbar-light .navbar-nav .nav-link {
+    font-weight: bold;
+    font-family: 'Heebo', sans-serif;
 }
-.logo a {
-    font-family: 'Roboto', sans-serif;
+/* Munu despegable */
+.navbar-toggler {
+    font-size: 40px;
+}
+.navbar-collapse { 
+    height: 250px;
+}
+/* Dentro de Usuario */
+.navbar-na {height: 250px;
+}
+
+/* INDEX */
+.foto-header {
+    background: aqua url(imagenes/header.jpeg);
+    background-size: cover;
+    overflow: hidden;
+}
+.foto-header h3 { 
+      color: rgb(194, 8, 194);
+      background-color: white;
+      margin-top: 1%;
+}
+.foto-header p {
+    color: #f358c5;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 70px;
     position: relative;
-    right: 80px;
+    top: 80px;
 }
-/* Fin de barra navegacion */
-/* Animaciones */
-.transformacion-1 img { 
-    transition-duration: 0.3s; 
-    transition-property: all;
-    transition-timing-function: ease;
-    transition-duration: .5s;
+.off-abajo { 
+    margin-top: 14%;
 }
-.transformacion-1 img:hover {
-     transform: scale(1.5); 
+#imagenes-index div img{ 
+    width: 80%;
+    height: 600px;
+    margin: 1%;
+
 }
-.no-transition { text-align: center;}
+
+/* Main de Productos */
+
+.intro-1 h3{ 
+    text-align: center;
+    font-size: 45px;
+    background-color: rgb(252, 143, 215);
+    font-family:'Heebo', sans-serif;
+    font-weight: bold;
+    border-radius: 100%;
+    margin: 5%;
+}
+#cartas .col-lg-4 {
+margin: 0%;
+padding: 25px;
+}
+
+
+
+/* Productos/ver mas */
+.ver-mas { 
+    display: flex;
+    justify-content: center;
+    position: relative;
+    right: 30px;
+    top: 25px;
+}
+
+.ver-mas ul {
+    list-style-type: none;
+   
+}
+.ver-mas a { 
+    text-decoration: none;
+    color: #000;
+}
+.ver-mas h3 { font-size: 30px;
+font-weight: bold;}    
+/* Fin de main de Productos */
+
+/* Nosotras */
+.nosotras-0 h3{ 
+    text-align: center;
+    font-size: 40px;
+    font-weight: bold;
+    margin: 5%;
+}
+.nosotras div { 
+   text-align: center;
+}
+.nosotras img { 
+   width: 90%;
+   height: 90%;
+   border-radius: 5px;
+   box-shadow: 1px 10px 15px rgba(0,0,0,0.50);}
+   
+.nosotras-2 h3{
+   font-size: 45px;
+   font-style: normal;
+   font-weight: bold;
+   color: #080707;
+   text-shadow: 4px 4px 5px hsl(0, 1%, 50%);
+   text-align: center;
+   margin: 5%;
+}
+   
+.nosotras-3 img { 
+   width: 90%;
+   height: 90%;
+   margin: 5%;
+}
+.nosotras-3 h3 {
+    font-weight: bold;
+    font-size: 30px;
+    text-align: center;
+}
+ /* Animaciones */
+/* Index */
+
+
+
+/* Productos */
+#cartas .card:hover {
+    border: solid rgb(121, 100, 107);
+} 
+
+.no-transition { 
+    text-align: center;
+}
+
+/* Animacion Productos Disponibles */
+.intro-1 h3 {
+    animation: rosa-verde 3s ease
+}
+@keyframes rosa-verde {
+    0% { 
+        background-color: rgb(172, 143, 252);
+        transform: translate(170px);
+    
+    }
+
+    30% {
+        background-color: rgb(172, 143, 252);
+        transform: translate(170px);
+    }
+    
+    50% {
+        background-color: #0dcc0d;
+        transform: translate(130px);
+    }
+    
+    70% {
+        background-color: #f1e530;
+        transform: translate(60px);
+
+
+    }
+    100% {
+        background-color: red;
+        transform: rotatex(100px);
+        transform: translate(0px);
+    }
+}
 
 /* CONFIGURACION DE INICIO DE SESION */
     
-.sesion-1 {
+.sesion-1 h3{ 
+    font-size: 40px;
+    margin: 5%;
+    font-family: 'Heebo', sans-serif;
+    border: solid gray;
     text-align: center;
-    border: solid black;
-    color: black;
-    font-size: 10px;}
-        
-/* INCIAR SESION */
+}
 .sesion-2 h3 { 
-    margin:0%;
-    padding: 25px;}
+    font-size: 60px;
+    padding: 25px;
+    font-weight: bold;
+}
         
 /* Cuadro englobador y correo/contraseña */
 .sesion-2 {
     position: relative;
-    top: 5px;
-    width: 250px;
-    height: 200px;
+    top: 10px;
+    width: 600px;
+    height: 550px;
     font-family: Arial, Helvetica, sans-serif;
     background-color: #666668;
     text-align: center;
@@ -89,77 +215,280 @@ left: 10px;
         
 .sesion-2 div input { 
     border: solid hsl(192, 64%, 47%);
+    font-size: 40px;
+    margin: 3%;
 }
 
 /*olvidaste tu contraseña?  */
-.sesion-2 p a{ 
+.sesion-2 div p a{ 
     color: white;
     position: relative;
-    top: 10px;
+    top: 15px;
     text-decoration: none;
+    font-size: 40px;
 }
-        
+
 /* BOTON INGRESAR */
 .sesion-3 input{ 
     position: relative;
-    top: 10px;}
+    top: 10px;
+}
         
 /* si sos nuevo */
-.aside-2 h3 {
-    position: relative;
-    top: 5px;
-    font-size: 15px;
-    font-family: Arial, Helvetica, sans-serif
+.sesion-4 {
+    text-align: center;
 }
-.aside-2 input { 
+.sesion-4 h3 {
+    position: relative;
+    top: 10px;
+    font-size: 40px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 3%;
+}
+.sesion-4 input { 
     text-align: center;
     border: solid hsl(192, 64%, 47%);
-    font-family: Arial, Helvetica, sans-serif;font-weight: bold;}
-        
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    font-size: 30px;
+    position: relative;
+    bottom: 10px;
+}
+/* Fin de incio de sesion */
+
 /* REGISTRARME */
 .registrate-main {
     display: flex;
     flex-direction: column;
     align-items: center;
 }
+.englobador-registro {
+    width: 600px;
+    height: 85%;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #666668;
+    text-align: center;
+    box-shadow:  2px 5px 30px #000;
+    margin-top: 3%;
+}
 .registrate-1 { 
     border: solid black;
     text-align: center;
 }
-.registrate-2 {
+.registrate-1 h3 {
+    font-size: 40px;
+    font-family: 'Heebo', sans-serif;
+}
+.registrate-2 { 
     text-align: center;
-    font-size: 15px;
-}
-.registrate-3 {
-     text-align: center;
-     font-size: 15px
-    }
-.registrate-4 h3{
-    font-size: 15px
-}
-.registrate-4 input {
-    font-size: 15px;
-}
-.boton-ingresar{
-    border: solid #060a0a;
-}
 
-/* productos */
-.intro-1 { 
+}
+.registrate-2 h3{
+    position: relative;
+    top: 20px;
+    font-size: 40px;
+    color: white;
+}
+.registrate-2 input {
+    position: relative;
+    top: 40px;
+    font-size: 30px;
+}
+.apellido-boton { 
     text-align: center;
 }
-    
-/* introduccion 2 */
-.intro-2 {
+.apellido-boton h3 {
+    position: relative;
+    top: 80px;
+    font-size: 40px;
+    color: white;
+}
+.apellido-boton input { 
+    position: relative;
+    top: 90px;
+    font-size: 30px;
+}
+.registrate-3 { 
     text-align: center;
     position: relative;
-    bottom: 20px;
+    top: 130px;
 }
-        
+.registrate-3 input{
+    position: relative;
+    top: 30px;
+    font-size: 30px;
+    }
+.registrate-3 h3 {
+    font-size: 40px;
+    color: white;
+}
+.contra-boton {
+    text-align: center;
+}
+.contra-boton input{
+    font-size: 30px;
+    position: relative;
+    top: 230px
+}
+.contra-boton h3 {
+    font-size: 40px;
+    position: relative;
+    top: 210px;
+    color: white;
+}
+.registrate-4 h3{
+    font-size: 35px;
+    position: relative;
+    top: 280px;
+    left: 10px;
+    color: white;
+
+}
+.registrate-4 input {
+    font-size: 30px;
+    position: relative;
+    top: 300px;
+    left: 60px;
+}
+#boton-ingresar{
+    position: relative;
+    top: 380px;
+    right: 170px;
+    font-size: 25px;
+}
+.registrate-main{
+    height: 1100px;
+}
+
+/* footer */
+
+footer { 
+    background-color: hwb(240 91% 6%);
+    border-top: solid black;
+    height: 100%;
+    width: 100%;
+}   
+footer a { 
+    text-decoration: none;
+}
+
+footer ul li {
+    font-weight: bold;
+    display: inline-block;
+    text-decoration: none;
+    
+}
+.fa-brands { 
+    width: 100px;
+    height: 100px;
+    margin-top: 15%;
+}
+footer .fa-instagram { 
+    color: palevioletred;
+    font-size: 40px;
+}
+footer .fa-facebook { 
+    color: blue;
+    font-size: 40px;
+}
+footer .fa-whatsapp {
+    color: #27df27;
+    font-size: 40px;
+}
+
+.foo-tamaño {
+    font-size: 25px;
+}
+/* fin del footer */
+
+
+/* grid area */
+.h3-galeria {
+    text-align: center;
+    font-size: 40px;
+}
+.galeria img {
+    object-fit: cover;
+    width: 80%;
+    height: 80%;
+    margin: 5px;
+    
+}
+.galeria { 
+    display: grid;
+    grid-template-columns: repeat(3, 320px);
+    grid-template-rows: repeat(3,320px);
+    grid-gap: 5px;
+    text-align: center;
+}
+
+@media screen and (min-width: 768px){
+
+#boton-ingresar{
+    position: relative;
+    right: 180px;
+}
+}    
+
+@media screen and (min-width: 1024px){
+
+/* Barra de navegacion */
+nav { 
+    font-size: 15px;
+    font-weight: bold;
+}
+.dropdown-menu {
+    font-size: 12px;
+}
+.logo-amici { 
+    width: 100px;
+    height: 100px;
+    position: relative;
+    top: 4px;
+}
+.form-control {
+    font-size: 20px;
+}
+.btn { 
+    font-size: 20px;
+    font-weight: bold;
+    color: #000;
+}
+.navbar-toggler {
+    font-size: 20px;
+}
+.navbar-collapse { 
+    height: 100px;
+}
+.navbar-na {height: 100px;
+}
+
+/* INDEX IMAGENES */
+
+#imagenes-index div img{ 
+    width: 100%;
+    height: 600px;
+    margin: 1%;
+
+}
+
+/* Productos */
+.intro-1 h3{ 
+    text-align: center;
+    font-size: 20px;
+    background-color: rgb(252, 143, 215);
+    font-family:'Heebo', sans-serif;
+    font-weight: bold;
+}
+.intro-2 {
+    text-align: center;
+    margin: 5%;
+}
+
 /* tamaño de gorras */
 .intro-2 img { 
-    height: 150px;
-    width: 150px;
+    height: 200px;
+    width: 200px;
 /* Borde Sombrita */
     border-radius: 5px;
     box-shadow: 1px 10px 15px rgba(0,0,0,0.50);
@@ -169,371 +498,296 @@ left: 10px;
 /* introduccion 3 */
 .intro-3  { 
     text-align: center;
+    margin: 5%;
 }
         
- /* config gorros de la lana */
+/* config gorros de la lana */
 .intro-3 img {
-    height: 150px;
-    width: 150px;
+    height: 200px;
+    width: 200px;
     border-radius: 5px;
     box-shadow: 1px 10px 15px rgba(0,0,0,0.50);}
     
-/* aside */
-aside { 
-    text-align: center;
-}
-       
-/* configuracion de aros */
-aside img { 
-    height: 150px;
-    width: 150px;
+
+ .intro-4 {
+     text-align: center;
+     margin: 5%;
+ }   
+.intro-4 img {
+    height: 200px;
+    width: 200px;
+/* Borde Sombrita */
     border-radius: 5px;
-    box-shadow: 1px 10px 15px rgba(0,0,0,0.50);}
-    /* footer */
-    footer { 
-    display: flex;
-    flex-direction: column;
-    font-size: 10px;}   
-    footer a { 
-    position: relative;
-    left: 50px;
-    color: black;
-    text-decoration: none;}
-    footer h3 { 
+    box-shadow: 1px 10px 15px rgba(0,0,0,0.50);
+
+}
+
+.intro-5 {
     text-align: center;
-    font-size: 10px;}
-    footer ul li {
-    text-align: center;
-    font-weight: bold;
-    display: inline-block;
-    text-decoration: none;}
-    /* fin del footer */
+    margin: 5%;
+}
+.intro-5 img {
+    height: 200px;
+    width: 200px;
+/* Borde Sombrita */
+    border-radius: 5px;
+    box-shadow: 1px 10px 15px rgba(0,0,0,0.50);
+}
+/* Fin de main de index */
 /* Productos/ver mas */
 .ver-mas { 
     display: flex;
     justify-content: center;
     position: relative;
-    right: 30px;
-}
-.ver-mas ul {
-    list-style-type: none;
-}
-.ver-mas a { 
-    text-decoration: none;
-    color: #000;
-}
-/* grid area */
-.h3-galeria {
-    text-align: center;
-}
-.galeria img {
-    object-fit: cover;
-    width: 100%;
-    height: 100%;
-}
-.galeria { 
-    display: grid;
-    grid-template-columns: repeat(3, 105px);
-    grid-template-rows: 150px 150px 150px;
-    grid-gap: 2px;
+    right: 10px;
 }
 
-/* nosotras */
-.nosotras-3 h3{
-    position: relative;
-    bottom: 30px
-}
-.nosotras img {
-    position: relative;
-    bottom: 30px;
-}
+.ver-mas h3 { font-size: 20px;}
 
-
-@media screen and (min-width: 768px){
-hr { border: solid #6d6665} 
-    
-/* header */
-header { 
-    height: 150px;
-}
-.registro a { 
-    font-size: 15px;
-}
-    
-/* fin de barra de navegacion */
-
-/* MAIN */
-main {
-    font-size: 20px;
-} 
-
-     /* FOOTER */
-footer h3 {
-    font-size: 20px;
-}
-footer ul {
-    font-size: 15px;
-    text-align: center;
-    position: relative;
-    right: 60px;}
-    /* NOSOTRAS */
-.nosotras-0 h3{
-    font-size: 35px;
-}
-.nosotras-2 h3{
-    font-size: 40px;
-}
-.nosotras-3 img{
-    position: relative;
-    bottom: 50px;
-}
-.nosotras-3 h3 {
-    font-size: 30px;
-}
-
-/* INCIAR SESION */
-.aside-2 { 
-    position: relative;
-    top: 20px;
-}
-footer { 
-    position: relative;
-    top: 35px;
-}
-.hr-sesion {
-    position: relative;
-    top: 40px;
-}
-.sesion-3 a{ 
-        color: white;
-        position: relative;
-        bottom: 20px;
-    }
-/*REGISTRARME */
-.registrate-1 { 
-    font-size: 20px;
-}
-.registrate-2 div { 
-    font-size: 15px;
-}
-.registrate-2 input {
-    font-size: 15px;
-}
-.registrate-3 div { 
-    font-size: 15px;
-    }
-.registrate-3 input {
-    font-size: 15px;
-}
-.registrate-4 { 
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    }
-.registrate-4 div h3{
-    font-size: 20px;}
-.registrate-4 div input {
-    font-size: 15px;
-}
-.boton-ingresar{
-    border: solid #060a0a;
-}
-hr { 
-    position: relative;
-    top: 30px;
-}
-footer { 
-    position: relative;
-    top: 50px;}
-
-/* galeria */
-.galeria { 
-    display: grid;
-    grid-template-columns: repeat(3, 240px);
-    grid-template-rows: repeat(3,280);
-    grid-gap: 10px;
-
-}
-.galeria img {
-    object-fit: cover;
-    width: 90%;
-    height: 90%;
-}
-.ver-mas ul {
-    list-style-type: none;
-}
-.ver-mas a { 
-    text-decoration: none;
-    color: #000;
-}
-}
-
-@media screen and (min-width: 1024px){
-
-
-/* Barra Navegacion */
-.navegacion { width: 1009px;
-    text-align: center;
-    font-size: 20px;}
-.logo img {
-    display: flex;
-    justify-content: start;
-    position: relative;
-    bottom: 70px;
-    height: 150px;
-}
-        
-     /* NOSOTRAS */
-.nosotras-0 {font-size: 35px;
-height: 150px;}
-.nosotras img {height: 70%;
-width: 70%;}
-.nosotras-2 h3{font-size: 40px;
-position: relative;
-top: 60px;}
-.nosotras-3 img{
-    position: relative;
-    bottom: 100px;
-    height: 70%;
-    width: 70%;
-}
-
-
-/*REGISTRARME */
-.registrate-1 { 
-            font-size: 20px;
-        }
-.registrate-2 div { 
-            font-size: 15px;
-        }
-.registrate-2 input {
-            font-size: 15px;
-        }
-.registrate-3 div { 
-            font-size: 15px;
-            }
-.registrate-3 input {
-            font-size: 15px;
-        }
-.registrate-4 { 
-            display: flex;
-            flex-direction: column;
-            align-items: center;
-            }
-.registrate-4 div h3{
-            font-size: 20px;
-        }
-.registrate-4 div input {
-            font-size: 15px;
-        }
-.boton-ingresar{
-            border: solid #060a0a;
-        }
-
-.ver-mas ul {
-            list-style-type: none;
-        }
-.ver-mas a { 
-            text-decoration: none;
-            color: #000;
-        }
-    }
-@media screen and (min-width: 1330px)
-{ body { 
-    margin: 0%;
-}
-/* BARRA DE NAVEGACION */
-.navegacion {
-    padding-right: 1%;
-    width: 1320px;
-    height: 100px;
-} 
-.navegacion ul li a {
-    position: relative;
-    top: 15px;
-    font-weight: bold;}
-/* INICIO DE SESION */
-
-.aside-2 h3 { 
-    font-size: 50px;
-}
-/* IMAGEN CLICK */
-.logo img {
-position: relative;
-bottom: 70px;}
-
-/* NOSOTRAS */
-.nosotras-0 {
-    font-size: 35px;
-    height: 150px;
-}
-.nosotras-2 {
-    font-size: 80px;
-    height: 300px;
-}
-.nosotras-3 img{
-    position: relative;
-    bottom: 100px;
-}
-
-/* nosotras */
+/* Nosotras */
 .nosotras-0 h3{ 
-     text-align: center;
-     font-size: 20px;}
-.nosotras div { 
     text-align: center;
+    font-size: 20px;
+    font-weight: bold;
+    margin: 5%;
+    border: solid pink;
+}
+.nosotras div { 
+   text-align: center;
 }
 .nosotras img { 
-    width: 90%;
-    height: 90%;
-    border-radius: 5px;
-    box-shadow: 1px 10px 15px rgba(0,0,0,0.50);}
-    
+   width: 50%;
+   height: 50%;
+   border-radius: 5px;
+   box-shadow: 1px 10px 15px rgba(0,0,0,0.50);}
+   
 .nosotras-2 h3{
-    font-size: 20px;
-    font-style: normal;
-    font-weight: bold;
-    color: #080707;
-    text-shadow: 4px 4px 5px hsl(0, 1%, 50%);
-    text-align: center;}
-    
+   font-size: 30px;
+   font-style: normal;
+   font-weight: bold;
+   color: #080707;
+   text-shadow: 4px 4px 5px hsl(0, 1%, 50%);
+   text-align: center;
+   margin: 5%;
+}
+   
 .nosotras-3 img { 
-    width: 90%;
-    height: 90%;}
+   width: 40%;
+   height: 40%;
+   margin: 5%;
+   margin-left: 30%;
+}
+
+/* CONFIGURACION DE INICIO DE SESION */
     
-/* galeria */
-.galeria { 
-    display: grid;
-    grid-template-columns: repeat(3, 440px);
-    grid-template-rows: repeat(3,500);
-    grid-gap: 15px;
-
+.sesion-1 h3{ 
+    font-size: 25px;
+    margin: 5%;
+    font-family: 'Heebo', sans-serif;
+    border: solid gray;
+    text-align: center;
 }
-.galeria img {
-    object-fit: cover;
-    width: 100%;
-    height: 100%;
+.sesion-2 h3 { 
+    font-size: 40px;
+    padding: 25px;
+    font-weight: bold;
 }
-.logo li a { position: relative;
-bottom: 20px;}
-
+        
+/* Cuadro englobador y correo/contraseña */
 .sesion-2 {
     position: relative;
-    top: 15px;
-    width: 350px;
-    height: 300px;
+    top: 10px;
+    width: 400px;
+    height: 350px;
     font-family: Arial, Helvetica, sans-serif;
     background-color: #666668;
     text-align: center;
     box-shadow:  2px 5px 30px #000;
     margin: auto;
     color: white;}
+        
+.sesion-2 div input { 
+    border: solid hsl(192, 64%, 47%);
+    font-size: 20px;
+    margin: 3%;
+}
 
-.ver-mas ul {
-        list-style-type: none;
+/*olvidaste tu contraseña?  */
+.sesion-2 div p a{ 
+    color: white;
+    position: relative;
+    top: 15px;
+    text-decoration: none;
+    font-size: 20px;
+}
+
+/* BOTON INGRESAR */
+.sesion-3 input{ 
+    position: relative;
+    top: 10px;
+}
+        
+/* si sos nuevo */
+.sesion-4 h3 {
+    position: relative;
+    top: 10px;
+    font-size: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 3%;
+}
+.sesion-4 input { 
+    text-align: center;
+    border: solid hsl(192, 64%, 47%);
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    font-size: 15px;
+    position: relative;
+    bottom: 20px;
+}
+/* Fin de incio de sesion */
+
+/* REGISTRARME */
+.registrate-main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.registrate-1 { 
+    border: solid black;
+    text-align: center;
+}
+.registrate-1 h3 {
+    font-size: 30px;
+    font-family: 'Heebo', sans-serif;
+}
+.registrate-2 { 
+    text-align: center;
+
+}
+.registrate-2 h3{
+    position: relative;
+    top: 20px;
+    font-size: 25px;
+}
+.registrate-2 input {
+    position: relative;
+    top: 40px;
+    left: 20px;
+    font-size: 23px;
+}
+.apellido-boton { 
+    text-align: center;
+}
+.apellido-boton h3 {
+    position: relative;
+    top: 80px;
+    font-size: 25px;
+}
+.apellido-boton input { 
+    position: relative;
+    top: 90px;
+    left: 20px;
+    font-size: 23px;
+}
+.registrate-3 { 
+    text-align: center;
+    position: relative;
+    top: 130px;
+}
+.registrate-3 input{
+    position: relative;
+    top: 30px;
+    left: 20px;
+    font-size: 23px;
     }
-.ver-mas a { 
-        text-decoration: none;
-        color: #000;
-    }
+.registrate-3 h3 {
+    font-size: 25px;
+}
+.contra-boton {
+    text-align: center;
+}
+.contra-boton input{
+    font-size: 23px;
+    position: relative;
+    top: 250px;
+    left: 20px;
+
+}
+.contra-boton h3 {
+    font-size: 25px;
+    position: relative;
+    top: 210px;
+}
+.registrate-4 h3{
+    font-size: 25px;
+    position: relative;
+    top: 280px;
+
+}
+.registrate-4 input {
+    font-size: 23px;
+   position: relative;
+   top: 310px;
+   left: 80px;
+}
+#boton-ingresar{
+    position: relative;
+    right: 140px;
+    top: 420px;
+}
+.registrate-main{
+    position: relative;
+    top: 50px;
+  }
+/* footer */
+
+
+footer .fa-instagram { 
+    color: palevioletred;
+    font-size: 40px;
+}
+footer .fa-facebook { 
+    color: blue;
+    font-size: 40px;
+}
+footer .fa-whatsapp {
+    color: #27df27;
+    font-size: 40px;
+}
+.foo-tamaño {
+    font-size: 20px;
+}
+#ubi-grande {
+    position: relative;
+    left: 50px;
+}
+
+/* fin del footer */
+
+
+/* grid area */
+.h3-galeria {
+    text-align: center;
+    font-size: 25px;
+    margin-top: 1%;
+}
+.galeria img {
+    object-fit: cover;
+    width: 70%;
+    height: 70%;
+    margin: 5px;
+    margin-left: 60%;
+    margin-top: 50px ; 
+    
+}
+.galeria { 
+    display: grid;
+    grid-template-columns: repeat(3, 350px);
+    grid-template-rows: repeat(3,350px);
+    grid-gap: 5px;
+    
+}
+
+
 }
