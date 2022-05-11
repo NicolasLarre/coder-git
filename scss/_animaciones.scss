@@ -3,20 +3,15 @@
     border: solid rgb(121, 100, 107);
   } 
   
-  .no-transition { 
-    text-align: center;
-  }
-  
   /* Animacion  Titulo Productos Disponibles */
   .intro-1 h3 {
-    animation: rosa-verde 2s ease
+    animation: rosa-verde 3s ease;
+    transition: all;
   }
   @keyframes rosa-verde {
     0% { 
         background-color: rgb(172, 143, 252);
         transform: translate(170px);
-        
-        
     
     }
   
@@ -34,16 +29,21 @@
         background-color: #f1e530;
         transform: translate(60px);
   
-  
     }
     100% {
         background-color: red;
-        transform: rotatex(100px);
-        transform: translate(0px);
+        transform: translate(20px);
     }
   }
-
+//animaciones grid//
   .transformacion-1:hover {
-    transform: scale(2);
-    transition-timing-function: ease;
+    transform: scale(1.15);
   }
+
+//animaciones index//
+.index-hover:hover {
+    opacity: 90%;
+    background-color: white;
+
+  }
+

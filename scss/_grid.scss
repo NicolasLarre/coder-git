@@ -2,6 +2,7 @@
   .h3-galeria {
     text-align: center;
     font-size: 40px;
+    font-family: $estilo-letra;
   }
    
   .galeria { 
@@ -15,6 +16,7 @@
       width: 80%;
       height: 80%;
       margin: 5px;
+      transition: all 300ms;
       
     }
   }

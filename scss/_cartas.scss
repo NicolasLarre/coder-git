@@ -2,9 +2,9 @@
   
   .intro-1 h3{ 
     text-align: center;
-    font-size: 45px;
-    background-color: rgb(252, 143, 215);
-    font-family:'Heebo', sans-serif;
+    font-size: $letra-size + 5;
+    background-color: $color-secundary;
+    font-family:$estilo-letra;
     font-weight: bold;
     border-radius: 100%;
     margin: 5%;
@@ -28,7 +28,7 @@
       text-decoration: none;
       color: #000;
     }
-     h3 { font-size: 30px;
+     h3 { font-size: $letra-size - 10;
       font-weight: bold;} 
   
   }
