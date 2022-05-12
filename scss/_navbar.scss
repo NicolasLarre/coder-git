@@ -4,6 +4,11 @@ nav {
     font-weight: bold;
     background-color: white;
   }
+  .bg-light {
+    --bs-bg-opacity: 1;
+    background-color: hwb(240 91% 6%)!important;
+}
+
   .dropdown-menu {
     font-size: 25px;
   }
@@ -24,8 +29,8 @@ nav {
     font-size: 40px;
   }
   .navbar-collapse { 
-    height: 250px;
+    min-height: 250px;
   }
   /* Dentro de Usuario */
-  .navbar-na {height: 250px;
+  .navbar-na {min-height: 250px;
   }

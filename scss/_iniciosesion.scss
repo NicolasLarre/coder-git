@@ -1,5 +1,8 @@
 /* CONFIGURACION DE INICIO DE SESION */
-    
+.fondo-ini-regis {
+  background: url(../imagenes/fondo-usuario.png);
+  background-size: 50%;
+}    
 .sesion-1 h3{ 
     font-size: $letra-size;
     margin: 5%;

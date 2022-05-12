@@ -1,4 +1,8 @@
 /* REGISTRARME */
+.fondo-ini-regis {
+  background: url(../imagenes/fondo-usuario.png);
+  background-size: 50%;
+}
 .registrate-main {
     display: flex;
     flex-direction: column;
@@ -106,15 +110,15 @@
   input {
         font-size: 30px;
         position: relative;
-        top: 200px;
+        top: 300px;
         left: 60px;
       }
    
 }  
   
-  #boton-ingresar{
-    position: relative;
-    top: 380px;
-    right: 170px;
-    font-size: 25px;
-  }
+#boton-ingresar{
+  position: relative;
+  top: 380px;
+  right: 170px;
+  font-size: 25px;
+}
