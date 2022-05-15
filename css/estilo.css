@@ -186,110 +186,89 @@ footer {
 
 /* REGISTRARME */
 .fondo-ini-regis {
-  background: url(../imagenes/fondo-usuario.png);
-  background-size: 50%; }
-
-.registrate-main {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  height: 1100px; }
-
-.englobador-registro {
-  width: 600px;
-  height: 85%;
-  font-family: Arial, Helvetica, sans-serif;
-  background-color: #666668;
-  text-align: center;
-  box-shadow: 2px 5px 30px #000;
-  margin-top: 3%; }
+  background: url(../imagenes/fondolila.jpg);
+  background-repeat: no-repeat; }
 
 .registrate-1 {
   border: solid black;
-  text-align: center; }
+  text-align: center;
+  margin-top: 3%; }
   .registrate-1 h3 {
+    color: white;
     font-size: 40px;
     font-family: "Heebo", sans-serif; }
 
+.englobador-registro {
+  height: 100%;
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: #b9b9b9;
+  text-align: center;
+  box-shadow: 2px 5px 30px #000;
+  margin: 10%; }
+
 .registrate-2 {
-  text-align: center; }
+  text-align: center;
+  padding: 5%; }
   .registrate-2 h3 {
-    position: relative;
-    top: 20px;
     font-size: 40px;
     color: white; }
   .registrate-2 input {
-    position: relative;
-    top: 40px;
     font-size: 30px; }
 
 .apellido-boton {
   text-align: center; }
   .apellido-boton h3 {
-    position: relative;
-    top: 80px;
     font-size: 40px;
     color: white; }
   .apellido-boton input {
-    position: relative;
-    top: 90px;
     font-size: 30px; }
 
 .registrate-3 {
   text-align: center;
-  position: relative;
-  top: 130px; }
-  .registrate-3 input {
-    position: relative;
-    top: 30px;
-    font-size: 30px; }
+  padding: 5%; }
   .registrate-3 h3 {
     font-size: 40px;
     color: white; }
+  .registrate-3 input {
+    font-size: 30px; }
 
 .contra-boton {
   text-align: center; }
-  .contra-boton input {
-    font-size: 30px;
-    position: relative;
-    top: 230px; }
   .contra-boton h3 {
     font-size: 40px;
-    position: relative;
-    top: 210px;
     color: white; }
+  .contra-boton input {
+    font-size: 30px; }
 
 .registrate-4 {
-  text-align: center; }
+  text-align: center;
+  padding: 5%; }
   .registrate-4 h3 {
-    font-size: 35px;
-    position: relative;
-    top: 280px;
-    left: 10px;
+    font-size: 40px;
     color: white; }
   .registrate-4 input {
-    font-size: 30px;
+    font-size: 30px; }
+  .registrate-4 button {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 35px;
     position: relative;
-    top: 300px;
-    left: 60px; }
-
-#boton-ingresar {
-  position: relative;
-  top: 380px;
-  right: 170px;
-  font-size: 25px; }
+    left: 265px;
+    top: 20px; }
 
 /* CONFIGURACION DE INICIO DE SESION */
 .fondo-ini-regis {
-  background: url(../imagenes/fondo-usuario.png);
-  background-size: 50%; }
+  background: url(../imagenes/fondolila.jpg); }
 
 .sesion-1 h3 {
   font-size: 40px;
   margin: 5%;
   font-family: "Heebo", sans-serif;
   border: solid gray;
-  text-align: center; }
+  text-align: center;
+  color: white; }
 
 /* Cuadro englobador y correo/contraseña */
 .sesion-2 {
@@ -298,7 +277,7 @@ footer {
   width: 600px;
   height: 550px;
   font-family: Arial, Helvetica, sans-serif;
-  background-color: #666668;
+  background-color: #b9b9b9;
   text-align: center;
   box-shadow: 2px 5px 30px #000;
   margin: auto;
@@ -491,75 +470,22 @@ footer {
     bottom: 20px; }
   /* Fin de incio de sesion */
   /* REGISTRARME */
-  .registrate-main {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    position: relative;
-    top: 30px; }
+  .englobador-registro {
+    height: 100%;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #666668;
+    text-align: center;
+    box-shadow: 2px 5px 30px #000;
+    margin: 9%; }
   .registrate-1 {
     border: solid black;
     text-align: center; }
     .registrate-1 h3 {
       font-size: 30px;
       font-family: 'Heebo', sans-serif; }
-  .registrate-2 {
-    text-align: center; }
-    .registrate-2 h3 {
-      position: relative;
-      top: 20px;
-      font-size: 25px; }
-    .registrate-2 input {
-      position: relative;
-      top: 40px;
-      left: 20px;
-      font-size: 23px; }
-  .apellido-boton {
-    text-align: center; }
-    .apellido-boton h3 {
-      position: relative;
-      top: 80px;
-      font-size: 25px; }
-    .apellido-boton input {
-      position: relative;
-      top: 90px;
-      left: 20px;
-      font-size: 23px; }
-  .registrate-3 {
-    text-align: center;
-    position: relative;
-    top: 130px; }
-    .registrate-3 input {
-      position: relative;
-      top: 30px;
-      left: 20px;
-      font-size: 23px; }
-    .registrate-3 h3 {
-      font-size: 25px; }
-  .contra-boton {
-    text-align: center; }
-    .contra-boton input {
-      font-size: 23px;
-      position: relative;
-      top: 250px;
-      left: 20px; }
-    .contra-boton h3 {
-      font-size: 25px;
-      position: relative;
-      top: 210px; }
-  .registrate-4 h3 {
-    font-size: 25px;
-    position: relative;
-    top: 300px; }
-  .registrate-4 input {
-    font-size: 23px;
-    position: relative;
-    top: 350px;
-    left: 86px; }
   #boton-ingresar {
     position: relative;
-    right: 145px;
-    top: 450px; }
+    left: 10px; }
   /* footer */
   footer .fa-instagram {
     color: palevioletred;
@@ -589,6 +515,11 @@ footer {
       height: 70%;
       margin-top: 50px; } }
 
+body {
+  margin: 0%;
+  background: url(../imagenes/stacked-peaks-haikei.png);
+  background-size: cover; }
+
 @media screen and (min-width: 1340px) {
   #ubi-grande {
     position: relative;
@@ -603,14 +534,61 @@ footer {
       object-fit: cover;
       width: 70%;
       height: 70%;
-      margin-top: 50px; } }
-
-body {
-  margin: 0%;
-  background: url(../imagenes/stacked-peaks-haikei.png);
-  background-size: cover; }
-
-@media screen and (min-width: 768px) {
-  #boton-ingresar {
+      margin-top: 50px; }
+  .englobador-registro {
+    width: 500px;
+    height: 100%;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #666668;
+    text-align: center;
+    box-shadow: 2px 5px 30px #000;
+    margin: 5%;
     position: relative;
-    right: 180px; } }
+    left: 370px; }
+  .registrate-2 {
+    text-align: center;
+    padding: 5%; }
+    .registrate-2 h3 {
+      font-size: 25px;
+      color: white; }
+    .registrate-2 input {
+      font-size: 15px; }
+  .apellido-boton {
+    text-align: center; }
+    .apellido-boton h3 {
+      font-size: 25px;
+      color: white; }
+    .apellido-boton input {
+      font-size: 15px; }
+  .registrate-3 {
+    text-align: center;
+    padding: 5%; }
+    .registrate-3 h3 {
+      font-size: 25px;
+      color: white; }
+    .registrate-3 input {
+      font-size: 15px; }
+  .contra-boton {
+    text-align: center; }
+    .contra-boton h3 {
+      font-size: 25px;
+      color: white; }
+    .contra-boton input {
+      font-size: 15px; }
+  .registrate-4 {
+    text-align: center;
+    padding: 5%; }
+    .registrate-4 h3 {
+      font-size: 25px;
+      color: white; }
+    .registrate-4 input {
+      font-size: 15px; }
+    .registrate-4 button {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      font-size: 20px;
+      position: relative;
+      left: 175px;
+      top: 15px; } }
