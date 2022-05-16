@@ -19,7 +19,7 @@
       height: 550px;
       font-family: Arial, Helvetica, sans-serif;
       background-color: #b9b9b9;
-      text-align: center;
+      @include center;
       box-shadow:  2px 5px 30px #000;
       margin: auto;
       color: white;
@@ -51,7 +51,7 @@
         
   /* si sos nuevo */
   .sesion-4 {
-    text-align: center;
+    @include center;
     h3 {
       position: relative;
       top: 10px;
@@ -60,7 +60,7 @@
       margin: 3%;
     }
     input { 
-      text-align: center;
+      @include center;
       border: solid hsl(192, 64%, 47%);
       font-family: Arial, Helvetica, sans-serif;
       font-weight: bold;

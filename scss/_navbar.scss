@@ -1,6 +1,6 @@
 /* Barra de navegacion */
 nav { 
-    font-size: 30px;
+    font-size: $letra-size - 10;
     font-weight: bold;
     background-color: white;
   }
@@ -10,14 +10,14 @@ nav {
 }
 
   .dropdown-menu {
-    font-size: 25px;
+    font-size: $letra-size - 15;
   }
   .logo-amici { 
     width: 200px;
-    height: 200px;
+    @include altura(100px *2);
   }
   .form-control {
-    font-size: 30px;
+    font-size: $letra-size - 10;
   }
   /* Todos los botones del nav */
   .navbar-light .navbar-nav .nav-link {
@@ -26,7 +26,7 @@ nav {
   }
   /* Munu despegable */
   .navbar-toggler {
-    font-size: 40px;
+    font-size: $letra-size;
   }
   .navbar-collapse { 
     min-height: 250px;

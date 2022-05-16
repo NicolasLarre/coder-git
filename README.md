@@ -21,4 +21,10 @@ tambien agregue una descripcion y el siguiente tittle: Amici Accesorios | Aqui v
 Grid// Agregue las siguientes keywords: productos, disponibles, actualidad, catalogo, stock.
 tambien agregue una descripcion y el siguiente tittle: Amici Accesorios | Aqui vas a ver todos nuestros productos.
 
-Le agregue a todos los HTML un icono para que aparesca al lado del nombre en la pestaña.
+Le agregue a todos los HTML un FACIVON para que aparesca al lado del nombre en la pestaña.
+
+16/05
+Cambien el diseño de todos los FOOTER usando MAPS Y EACH.
+En el scss de Registro, le agregue el Extend a 2 componentes de la section.
+En variables hice 2 nuevos "Mixing" uno para text-algin: center y otro para el height: 100px.
+

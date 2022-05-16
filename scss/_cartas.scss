@@ -1,7 +1,7 @@
   /* Main de Productos */
   
   .intro-1 h3{ 
-    text-align: center;
+    @include center;
     font-size: $letra-size + 5;
     background-color: $color-secundary;
     font-family:$estilo-letra;

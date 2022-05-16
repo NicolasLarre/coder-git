@@ -1,6 +1,6 @@
   /* grid area */
   .h3-galeria {
-    text-align: center;
+   @include center;
     font-size: 40px;
     font-family: $estilo-letra;
   }
@@ -10,7 +10,7 @@
     grid-template-columns: repeat(3, 320px);
     grid-template-rows: repeat(3,320px);
     grid-gap: 5px;
-    text-align: center;
+    @include center;
     img {
       object-fit: cover;
       width: 80%;
