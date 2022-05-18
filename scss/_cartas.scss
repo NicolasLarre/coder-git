@@ -1,5 +1,15 @@
   /* Main de Productos */
-  
+
+  .body-productos {
+    background-color: white
+  }
+
+  .btn-primary {
+    color: #080707;
+    background-color: #e0e8f3;
+    border-color: #eaedf1;
+  }
+
   .intro-1 h3{ 
     @include center;
     font-size: $letra-size + 5;

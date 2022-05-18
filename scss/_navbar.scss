@@ -2,7 +2,8 @@
 nav { 
     font-size: $letra-size - 10;
     font-weight: bold;
-    background-color: white;
+    background: rgb(251,251,251);
+    background: linear-gradient(90deg, rgba(251,251,251,1) 0%, rgba(224,224,224,1) 44%, rgba(177,177,177,1) 100%);
   }
   .bg-light {
     --bs-bg-opacity: 1;

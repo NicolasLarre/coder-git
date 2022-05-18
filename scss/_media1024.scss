@@ -21,9 +21,9 @@
       font-size: $letra-size - 20;
     }
     .btn { 
-      font-size: $letra-size - 20;
+      font-size: $letra-size - 25;
       font-weight: bold;
-      color: #000;
+      color: #626060;
     }
     .navbar-toggler {
       font-size: $letra-size - 20;
@@ -71,7 +71,7 @@
       font-size: $letra-size - 20;
       font-weight: bold;
       margin: 5%;
-      border: solid pink;
+      border: solid rgb(241, 240, 240);
     }
   
   .nosotras div { 
@@ -190,17 +190,20 @@
        margin: 15%;
      }  
 .registrate-1 { 
-      border: solid black;
-      text-align: center;
-      h3 {
-        font-size: $letra-size - 5;
+  margin: 5%;
+      
+  h3 {
+        font-size: $letra-size - 10;
         font-family: 'Heebo', sans-serif;
       }
+    }
+  .registrate-4 button {
+      font-size: $letra-size - 15;
     }
      
    #boton-ingresar {
      position: relative;
-     left: 245px;
+     left: 250px;
    }
     /* Inicio del footer */
     #tama-1024 {
@@ -231,7 +234,19 @@
         
       }
     }
-    
+    .galeria2 { 
+      display: grid;
+      grid-template-columns: repeat(3, 335px);
+      grid-template-rows: repeat(2,350px);
+      grid-gap: 5px;
+      img {
+        object-fit: cover;
+        width: 70%;
+        height: 70%;
+        margin-top: 50px ; 
+        
+      }
+    }
     
     }
    

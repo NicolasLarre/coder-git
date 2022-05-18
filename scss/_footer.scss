@@ -1,7 +1,8 @@
 /* MOBILE */
-
 footer { 
-    background-color: hwb(240 91% 6%);
+    // background-color: hwb(240 91% 6%);
+    background: rgb(244,242,242);
+    background: radial-gradient(circle, rgba(244,242,242,1) 0%, rgba(236,236,236,1) 50%, rgba(177,177,177,1) 100%);
     border-top: solid black;
     height: 100%;
     width: 100%;
@@ -16,8 +17,15 @@ footer {
         text-decoration: none;
         
       }
+
+.pyp {
+        @include center;
+      a {
+        color: #212529
+      }  
+      }
       
-      .fa-brands { 
+.fa-brands { 
         width: 100px;
         @include altura(100px);
         margin-top: 15%;
@@ -34,5 +42,16 @@ footer {
           font-size: $letra-size;
         }
       }
-      
+
+  .breadcrumb{
+
+    ol a {
+      color: #212529;
+      font-size: $letra-size - 15;
+      position: relative;
+      top: 50px;
+    }
+    
+  } 
+
 }   

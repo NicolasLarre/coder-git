@@ -1,0 +1,63 @@
+@media screen and (min-width: 768px){
+    // Navbar
+  .navbar-toggler-icon {
+      width: 1em;
+      height: 1em;
+   }
+    
+  .navbar-collapse { 
+      min-height: 200px;
+   }
+    
+  .logo-amici {
+      width: 150px;
+      height: 150px;
+   }
+    
+  nav { 
+      font-size: $letra-size - 20;
+   }
+    
+  .dropdown-menu {
+      font-size: $letra-size - 25;
+   }
+    
+  //  index
+  #imagenes-index div img {
+    width: 65%;
+    max-height: 550px;
+    margin: 1%;
+  }
+  // Productos
+  .intro-1 h3 {
+    font-size: $letra-size - 10;
+  } 
+   
+   
+   // footer
+  #tama-1024 {
+      font-size: $letra-size - 20;
+   }
+  
+  .pyp {
+      @include center;
+      a {
+        position: relative;
+        right: 15px; 
+      } 
+   }
+  // Nosotras
+  .nosotras-0 h3 {
+    font-size: $letra-size - 10;
+   }
+  .nosotras-2 h3 {
+   font-size: $letra-size - 15;
+   } 
+  .nosotras-3 h3 {
+    font-weight: bold;
+    font-size: $letra-size - 15;
+   }
+  
+  
+  
+   }

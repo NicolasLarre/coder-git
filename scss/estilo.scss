@@ -8,133 +8,15 @@
   @import "registro";
   @import "iniciosesion";
   @import "grid";
+  @import "media768";
   @import "media1024";
+  @import "media1349";
     
   body {margin: 0%;
-    background: url(../imagenes/stacked-peaks-haikei.png);
+    background-color: hsl(336, 93%, 83%);
     background-size: cover;
   }  
 
-  @media screen and (min-width: 1349px){
-    
-    #ubi-grande {
-    position: relative;
-    left: 50px;
-  }
 
-  .galeria { 
-    display: grid;
-    grid-template-columns: repeat(3, 350px);
-    grid-template-rows: repeat(3,350px);
-    grid-gap: 5px;
-    margin-left: 130px;
-    img {
-      object-fit: cover;
-      width: 70%;
-      height: 70%;
-      margin-top: 50px ; 
-      
-    }
-  }
-  .englobador-registro {
-    width: 500px;
-    height: 100%;
-     font-family: Arial, Helvetica, sans-serif;
-     background-color: #b9b9b9;
-     text-align: center;
-     box-shadow:  2px 5px 30px #000;
-     margin: 5%;
-     position: relative;
-     left: 370px;
-
-   }
-
-.registrate-2 { 
-@include center;
-padding: 5%;
-        
-h3{font-size: $letra-size - 15;
-color: white;  
-}
-      
-input {
-     font-size: $letra-size - 25;   
-    }
-}
-
-
-.apellido-boton { 
-@include center;
-       
-h3{
-font-size: $letra-size - 15;
-color: white;  
-}
-     
-input {
-font-size: $letra-size - 25;   
-  }
-}
-
-.registrate-3 { 
-@include center;
-padding: 5%;
-         
-h3{
-  font-size: $letra-size - 15;
-  color: white;  
-}
-       
-input {
-      font-size: $letra-size - 25;   }
-}
-
-.contra-boton { 
-@include center;
-       
-h3{
-font-size: $letra-size - 15;
-color: white;  
-}
-     
-input {
-font-size: $letra-size - 25;   
-  }
-}
-
-.registrate-4 { 
-@include center;
-padding: 5%;
-       
-h3{
-font-size: $letra-size - 15;
-color: white;  
-}
-     
-input {
-font-size:$letra-size - 25;   
-  }
-button {
-display: flex;
-flex-direction: column;
-justify-content:center;
-align-items: center;  
-font-size: $letra-size - 20;
-position: relative;
-left: 50px;
-top: 15px;
-}
-}
-footer ul li{
-  position: relative;
-  left: 50px;
-}
-
-@media screen and (min-width: 1024px){
-#boton-ingresar { position: relative;
-  left: 175px;
-}
-}  
-}
  
 

@@ -16,22 +16,22 @@
     }
   
     30% {
-        background-color: rgb(172, 143, 252);
+        background-color: rgb(223, 194, 224);
         transform: translate(170px);
     }
     
     50% {
-        background-color: #0dcc0d;
+        background-color: #555555;
         transform: translate(130px);
     }
     
     70% {
-        background-color: #f1e530;
+        background-color: #30caf1;
         transform: translate(60px);
   
     }
     100% {
-        background-color: red;
+        background-color: #e100ff;
         transform: translate(20px);
     }
   }
