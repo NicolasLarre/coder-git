@@ -21,7 +21,8 @@ footer {
 .pyp {
         @include center;
       a {
-        color: #212529
+        color: #212529;
+        font-size: $letra-size - 18;
       }  
       }
       
@@ -43,15 +44,12 @@ footer {
         }
       }
 
-  .breadcrumb{
-
-    ol a {
+    .breadcrumb-item {
       color: #212529;
-      font-size: $letra-size - 15;
-      position: relative;
-      top: 50px;
+      font-size: $letra-size - 20;
+    a {
+      color: #212529;
     }
-    
   } 
 
 }   

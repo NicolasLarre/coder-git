@@ -75,7 +75,8 @@ footer {
   footer .pyp {
     text-align: center; }
     footer .pyp a {
-      color: #212529; }
+      color: #212529;
+      font-size: 22px; }
   footer .fa-brands {
     width: 100px;
     height: 100px;
@@ -89,11 +90,11 @@ footer {
   footer .fa-whatsapp {
     color: #27df27;
     font-size: 40px; }
-  footer .breadcrumb ol a {
+  footer .breadcrumb-item {
     color: #212529;
-    font-size: 25px;
-    position: relative;
-    top: 50px; }
+    font-size: 20px; }
+    footer .breadcrumb-item a {
+      color: #212529; }
 
 /* Main de Productos */
 .body-productos {
