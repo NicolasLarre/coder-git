@@ -2,7 +2,7 @@
   
     /* Barra de navegacion */
     #tama-navbar {
-      @include altura(100px);
+      @include altura(50px);
     }
     nav { 
       font-size: $letra-size - 25;

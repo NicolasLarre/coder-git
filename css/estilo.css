@@ -359,17 +359,17 @@ footer {
     width: 1em;
     height: 1em; }
   .navbar-collapse {
-    min-height: 200px; }
+    min-height: 160px; }
   .logo-amici {
-    width: 150px;
-    height: 150px; }
+    width: 120px;
+    height: 120px; }
   nav {
-    font-size: 20px; }
-  .dropdown-menu {
     font-size: 15px; }
+  .dropdown-menu {
+    font-size: 13px; }
   #imagenes-index div img {
-    width: 65%;
-    max-height: 550px;
+    width: 50%;
+    max-height: 450px;
     margin: 1%; }
   .intro-1 h3 {
     font-size: 30px; }
@@ -391,7 +391,7 @@ footer {
 @media screen and (min-width: 1024px) {
   /* Barra de navegacion */
   #tama-navbar {
-    height: 100px; }
+    height: 50px; }
   nav {
     font-size: 15px;
     font-weight: bold; }

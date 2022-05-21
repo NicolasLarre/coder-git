@@ -1,31 +1,32 @@
 @media screen and (min-width: 768px){
     // Navbar
+
   .navbar-toggler-icon {
       width: 1em;
       height: 1em;
    }
     
   .navbar-collapse { 
-      min-height: 200px;
+      min-height: 160px;
    }
     
   .logo-amici {
-      width: 150px;
-      height: 150px;
+      width: 120px;
+      height: 120px;
    }
     
   nav { 
-      font-size: $letra-size - 20;
+      font-size: $letra-size - 25;
    }
     
   .dropdown-menu {
-      font-size: $letra-size - 25;
+      font-size: $letra-size - 27;
    }
     
   //  index
   #imagenes-index div img {
-    width: 65%;
-    max-height: 550px;
+    width: 50%;
+    max-height: 450px;
     margin: 1%;
   }
   // Productos
