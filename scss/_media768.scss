@@ -1,4 +1,4 @@
-@media only screen and (min-width: 768px){
+@media screen and (min-width: 768px){
 
     // Navbar
 
@@ -58,19 +58,15 @@
    
    
    // footer
-   .title-foo h3 {
+   .title-foo {
      font-size: 14px;
    }
    .fa-brands {
      font-size: 20px;
-     width: 58px;
+     width: 59px;
    }
   .pyp {
       @include center;
-      a {
-        position: relative;
-        right: 15px; 
-      } 
    }
   // Nosotras
   .nosotras div img {
