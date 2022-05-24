@@ -1,35 +1,38 @@
 /* MOBILE */
 footer { 
-    // background-color: hwb(240 91% 6%);
     background: rgb(244,242,242);
     background: radial-gradient(circle, rgba(244,242,242,1) 0%, rgba(236,236,236,1) 50%, rgba(177,177,177,1) 100%);
     border-top: solid black;
     height: 100%;
     width: 100%;
+    padding: 10px;
   
+  .title-foo {
+    font-size: $letra-size - 30;
+  }
     a { 
         text-decoration: none;
       }
 
       ul li {
         font-weight: bold;
-        display: inline-block;
         text-decoration: none;
-        
+        list-style: none;
       }
 
 .pyp {
         @include center;
       a {
         color: #212529;
-        font-size: $letra-size - 18;
+        font-size: $letra-size - 28;
       }  
       }
       
 .fa-brands { 
-        width: 100px;
-        @include altura(100px);
-        margin-top: 15%;
+        width: 75px;
+        list-style: none;
+        // @include altura(100px);
+        // margin-top: 15%;
       }
        // maps
        $redes: (
@@ -40,13 +43,13 @@ footer {
       @each $rede, $color in $redes {
         .fa-#{$rede} {
           color: $color;
-          font-size: $letra-size;
+          font-size: $letra-size - 20;
         }
       }
 
     .breadcrumb-item {
       color: #212529;
-      font-size: $letra-size - 20;
+      font-size: $letra-size - 28;
     a {
       color: #212529;
     }

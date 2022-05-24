@@ -1,41 +1,4 @@
 @charset "UTF-8";
-/* Barra de navegacion */
-nav {
-  font-size: 30px;
-  font-weight: bold;
-  background: #fbfbfb;
-  background: linear-gradient(90deg, #fbfbfb 0%, #e0e0e0 44%, #b1b1b1 100%); }
-
-.bg-light {
-  --bs-bg-opacity: 1;
-  background-color: hwb(240 91% 6%) !important; }
-
-.dropdown-menu {
-  font-size: 25px; }
-
-.logo-amici {
-  width: 200px;
-  height: 200px; }
-
-.form-control {
-  font-size: 30px; }
-
-/* Todos los botones del nav */
-.navbar-light .navbar-nav .nav-link {
-  font-weight: bold;
-  font-family: 'Heebo', sans-serif; }
-
-/* Munu despegable */
-.navbar-toggler {
-  font-size: 40px; }
-
-.navbar-collapse {
-  min-height: 250px; }
-
-/* Dentro de Usuario */
-.navbar-na {
-  min-height: 250px; }
-
 .foto-header {
   background: url(../imagenes/header.jpeg) aqua;
   background-size: cover;
@@ -43,16 +6,18 @@ nav {
   .foto-header h3 {
     color: #c208c2;
     background-color: white;
-    margin-top: 1%; }
+    margin-top: 0%;
+    overflow: hidden;
+    max-height: 27px; }
   .foto-header p {
     color: #f358c5;
     font-weight: bold;
     font-family: Arial, Helvetica, sans-serif;
-    font-size: 70px;
+    font-size: 35px;
     position: relative;
-    top: 80px; }
+    top: 25px; }
   .foto-header .off-abajo {
-    margin-top: 14%; }
+    margin-top: 15%; }
 
 #imagenes-index div img {
   width: 80%;
@@ -65,34 +30,36 @@ footer {
   background: radial-gradient(circle, #f4f2f2 0%, #ececec 50%, #b1b1b1 100%);
   border-top: solid black;
   height: 100%;
-  width: 100%; }
+  width: 100%;
+  padding: 10px; }
+  footer .title-foo {
+    font-size: 10px; }
   footer a {
     text-decoration: none; }
   footer ul li {
     font-weight: bold;
-    display: inline-block;
-    text-decoration: none; }
+    text-decoration: none;
+    list-style: none; }
   footer .pyp {
     text-align: center; }
     footer .pyp a {
       color: #212529;
-      font-size: 22px; }
+      font-size: 12px; }
   footer .fa-brands {
-    width: 100px;
-    height: 100px;
-    margin-top: 15%; }
+    width: 75px;
+    list-style: none; }
   footer .fa-instagram {
     color: palevioletred;
-    font-size: 40px; }
+    font-size: 20px; }
   footer .fa-facebook {
     color: blue;
-    font-size: 40px; }
+    font-size: 20px; }
   footer .fa-whatsapp {
     color: #27df27;
-    font-size: 40px; }
+    font-size: 20px; }
   footer .breadcrumb-item {
     color: #212529;
-    font-size: 20px; }
+    font-size: 12px; }
     footer .breadcrumb-item a {
       color: #212529; }
 
@@ -107,7 +74,7 @@ footer {
 
 .intro-1 h3 {
   text-align: center;
-  font-size: 45px;
+  font-size: 20px;
   background-color: #fc8fd7;
   font-family: "Heebo", sans-serif;
   font-weight: bold;
@@ -123,22 +90,58 @@ footer {
   display: flex;
   justify-content: center;
   position: relative;
-  right: 30px;
-  top: 25px; }
+  right: 5px; }
   .ver-mas ul {
     list-style-type: none; }
   .ver-mas a {
     text-decoration: none;
     color: #000; }
   .ver-mas h3 {
-    font-size: 30px;
+    font-size: 15px;
     font-weight: bold; }
 
 /* Fin de main de Productos */
+/* Barra de navegacion */
+nav {
+  font-size: 11px;
+  font-weight: bold;
+  background: #fbfbfb;
+  background: linear-gradient(90deg, #fbfbfb 0%, #e0e0e0 44%, #b1b1b1 100%); }
+
+.bg-light {
+  --bs-bg-opacity: 1;
+  background-color: hwb(240 91% 6%) !important; }
+
+.dropdown-menu {
+  font-size: 10px; }
+
+.logo-amici {
+  width: 80px;
+  height: 80px; }
+
+.form-control {
+  font-size: 30px; }
+
+/* Todos los botones del nav */
+.navbar-light .navbar-nav .nav-link {
+  font-weight: bold;
+  font-family: 'Heebo', sans-serif; }
+
+/* Munu despegable */
+.navbar-toggler {
+  font-size: 15px; }
+
+.navbar-collapse {
+  min-height: 140px; }
+
+/* Dentro de Usuario */
+.navbar-na {
+  min-height: 250px; }
+
 /* MOBILE */
 .nosotras-0 h3 {
   text-align: center;
-  font-size: 40px;
+  font-size: 20px;
   font-weight: bold;
   margin: 5%; }
 
@@ -151,7 +154,7 @@ footer {
     box-shadow: 1px 10px 15px rgba(0, 0, 0, 0.5); }
 
 .nosotras-2 h3 {
-  font-size: 30px;
+  font-size: 20px;
   font-style: normal;
   font-weight: bold;
   color: #080707;
@@ -166,7 +169,7 @@ footer {
 
 .nosotras-3 h3 {
   font-weight: bold;
-  font-size: 30px;
+  font-size: 20px;
   text-align: center; }
 
 /* Animaciones Cartas */
@@ -213,7 +216,7 @@ footer {
   margin-top: 3%; }
   .registrate-1 h3 {
     color: #080808;
-    font-size: 40px;
+    font-size: 20px;
     font-family: "Heebo", sans-serif; }
 
 .englobador-registro {
@@ -228,43 +231,43 @@ footer {
   text-align: center;
   padding: 5%; }
   .registrate-2 h3, .registrate-3 h3, .registrate-4 h3 {
-    font-size: 40px;
+    font-size: 20px;
     color: white; }
   .registrate-2 input, .registrate-3 input, .registrate-4 input {
-    font-size: 30px; }
+    font-size: 18px; }
 
 .apellido-boton {
   text-align: center; }
   .apellido-boton h3 {
-    font-size: 40px;
+    font-size: 40px -20;
     color: white; }
   .apellido-boton input {
-    font-size: 30px; }
+    font-size: 18px; }
 
 .contra-boton {
   text-align: center; }
   .contra-boton h3 {
-    font-size: 40px;
+    font-size: 20px;
     color: white; }
   .contra-boton input {
-    font-size: 30px; }
+    font-size: 18px; }
 
 .registrate-4 button {
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  font-size: 35px;
+  font-size: 15px;
   position: relative;
-  left: 265px;
-  top: 20px; }
+  left: 70px;
+  top: 8px; }
 
 /* CONFIGURACION DE INICIO DE SESION */
 .fondo-ini-regis {
   background: url(../imagenes/fondolila.jpg); }
 
 .sesion-1 h3 {
-  font-size: 40px;
+  font-size: 18px;
   margin: 5%;
   font-family: "Heebo", sans-serif;
   border: solid gray;
@@ -275,8 +278,8 @@ footer {
 .sesion-2 {
   position: relative;
   top: 10px;
-  width: 600px;
-  height: 550px;
+  width: 285px;
+  height: 345px;
   font-family: Arial, Helvetica, sans-serif;
   background-color: #b9b9b9;
   text-align: center;
@@ -284,19 +287,19 @@ footer {
   margin: auto;
   color: white; }
   .sesion-2 h3 {
-    font-size: 60px;
+    font-size: 30px;
     padding: 25px;
     font-weight: bold; }
   .sesion-2 div input {
     border: solid #2ba6c5;
-    font-size: 40px;
+    font-size: 19px;
     margin: 3%; }
   .sesion-2 div p a {
     color: white;
     position: relative;
-    top: 15px;
+    top: 40px;
     text-decoration: none;
-    font-size: 40px; }
+    font-size: 24px; }
 
 /* BOTON INGRESAR */
 .sesion-3 input {
@@ -308,30 +311,30 @@ footer {
   text-align: center; }
   .sesion-4 h3 {
     position: relative;
-    top: 10px;
-    font-size: 40px;
+    top: 11px;
+    font-size: 25px;
     font-family: Arial, Helvetica, sans-serif;
-    margin: 3%; }
+    margin: 4%; }
   .sesion-4 input {
     text-align: center;
     border: solid #2ba6c5;
     font-family: Arial, Helvetica, sans-serif;
     font-weight: bold;
-    font-size: 30px;
-    position: relative;
-    bottom: 10px; }
+    font-size: 13px;
+    margin: 2%; }
 
 /* Fin de incio de sesion */
 /* grid area */
 .h3-galeria {
   text-align: center;
-  font-size: 40px;
-  font-family: "Heebo", sans-serif; }
+  font-size: 40px -15;
+  font-family: "Heebo", sans-serif;
+  margin: 2%; }
 
 .galeria {
   display: grid;
-  grid-template-columns: repeat(3, 320px);
-  grid-template-rows: repeat(3, 320px);
+  grid-template-columns: repeat(1, 320px);
+  grid-template-rows: repeat(9, 320px);
   grid-gap: 5px;
   text-align: center; }
   .galeria img {
@@ -343,8 +346,8 @@ footer {
 
 .galeria2 {
   display: grid;
-  grid-template-columns: repeat(3, 320px);
-  grid-template-rows: repeat(2, 320px);
+  grid-template-columns: repeat(1, 320px);
+  grid-template-rows: repeat(5, 320px);
   grid-gap: 5px;
   text-align: center; }
   .galeria2 img {
@@ -354,47 +357,92 @@ footer {
     margin: 5px;
     transition: all 300ms; }
 
-@media screen and (min-width: 768px) {
-  .navbar-toggler-icon {
-    width: 1em;
-    height: 1em; }
+@media only screen and (min-width: 768px) {
+  .navbar-toggler {
+    font-size: 16px; }
   .navbar-collapse {
-    min-height: 160px; }
+    min-height: 100%; }
   .logo-amici {
-    width: 120px;
-    height: 120px; }
+    width: 68px;
+    height: 68px; }
+  .navbar-light .navbar-nav .nav-link {
+    font-size: 10px; }
   nav {
     font-size: 15px; }
   .dropdown-menu {
-    font-size: 13px; }
+    font-size: 10px; }
+  .foto-header h3 {
+    max-height: 30px;
+    font-size: 20px;
+    margin: 0%; }
+  .foto-header p {
+    position: relative;
+    top: 45px; }
+  .foto-header .off-abajo {
+    margin-top: 103px; }
   #imagenes-index div img {
     width: 50%;
-    max-height: 450px;
+    height: 400px;
     margin: 1%; }
+  #cartas {
+    margin-left: 5%; }
   .intro-1 h3 {
-    font-size: 30px; }
-  #tama-1024 {
     font-size: 20px; }
+  .title-foo h3 {
+    font-size: 14px; }
+  .fa-brands {
+    font-size: 20px;
+    width: 58px; }
   .pyp {
     text-align: center; }
     .pyp a {
       position: relative;
       right: 15px; }
+  .nosotras div img {
+    width: 70%; }
   .nosotras-0 h3 {
     font-size: 30px; }
   .nosotras-2 h3 {
-    font-size: 25px; }
+    font-size: 20px; }
   .nosotras-3 h3 {
     font-weight: bold;
-    font-size: 25px; } }
+    font-size: 20px; }
+  .nosotras-3 img {
+    width: 60%;
+    margin-left: 20%; }
+  .registrate-4 button {
+    position: relative;
+    left: 235px; }
+  .galeria {
+    display: grid;
+    grid-template-columns: repeat(3, 260px);
+    grid-template-rows: repeat(3, 270px);
+    text-align: center; }
+    .galeria img {
+      object-fit: cover;
+      width: 60%;
+      height: 60%;
+      transition: all 300ms; }
+  .galeria2 {
+    display: grid;
+    grid-template-columns: repeat(3, 260px);
+    grid-template-rows: repeat(2, 270px);
+    text-align: center; }
+    .galeria2 img {
+      object-fit: cover;
+      width: 60%;
+      height: 60%;
+      transition: all 300ms; } }
 
-@media screen and (min-width: 1024px) {
+@media only screen and (min-width: 1024px) {
   /* Barra de navegacion */
   #tama-navbar {
     height: 50px; }
   nav {
     font-size: 15px;
     font-weight: bold; }
+  .navbar-nav {
+    padding-left: 70%; }
   .dropdown-menu {
     font-size: 12px; }
   .logo-amici {
@@ -414,10 +462,17 @@ footer {
     height: 100px; }
   .navbar-na {
     height: 100px; }
+  .navbar-light .navbar-nav .nav-link {
+    font-size: 12px; }
   /* INDEX IMAGENES */
+  .foto-header p {
+    position: relative;
+    top: 50px; }
+  .foto-header .off-abajo {
+    margin-top: 11%; }
   #imagenes-index div img {
     width: 100%;
-    height: 600px;
+    height: 500px;
     margin: 1%; }
   /* Productos */
   .intro-1 h3 {
@@ -426,7 +481,8 @@ footer {
     background-color: #fc8fd7;
     font-family: "Heebo", sans-serif;
     font-weight: bold; }
-  /* Productos/ver mas */
+  #cartas {
+    margin-left: 2%; }
   .ver-mas {
     display: flex;
     justify-content: center;
@@ -531,13 +587,25 @@ footer {
       font-size: 30px;
       font-family: 'Heebo', sans-serif; }
   .registrate-4 button {
-    font-size: 25px; }
+    font-size: 17px; }
   #boton-ingresar {
     position: relative;
-    left: 250px; }
+    left: 270px;
+    top: 20px; }
   /* Inicio del footer */
-  #tama-1024 {
-    font-size: 20px; }
+  footer .title-foo {
+    font-size: 15px; }
+  footer .fa-brands {
+    width: 87px; }
+  footer .fa-instagram {
+    font-size: 30px; }
+  footer .fa-facebook {
+    font-size: 30px; }
+  footer .fa-whatsapp {
+    font-size: 30px; }
+  footer .pyp {
+    position: relative;
+    right: 2px; }
   /* fin del footer */
   /* grid area */
   .h3-galeria {
@@ -565,7 +633,22 @@ footer {
       height: 70%;
       margin-top: 50px; } }
 
-@media screen and (min-width: 1349px) {
+@media only screen and (min-width: 1349px) {
+  .navbar-nav {
+    padding-left: 74%; }
+  .navbar-light .navbar-nav .nav-link {
+    font-size: 15px; }
+  .foto-header {
+    height: 250px !important; }
+    .foto-header h3 {
+      max-height: 40px;
+      font-size: 30px; }
+    .foto-header p {
+      position: relative;
+      top: 35px;
+      font-size: 70px; }
+    .foto-header .off-abajo {
+      margin-top: 73px; }
   #imagenes-index div img {
     width: 100%;
     height: 550px;
@@ -573,9 +656,8 @@ footer {
     margin-bottom: 1%;
     margin-left: 1%;
     margin-right: 1%; }
-  #ubi-grande {
-    position: relative;
-    left: 50px; }
+  #cartas {
+    margin-left: 10%; }
   .galeria {
     display: grid;
     grid-template-columns: repeat(3, 350px);
@@ -646,28 +728,24 @@ footer {
       color: white; }
     .registrate-4 input {
       font-size: 15px; }
-    .registrate-4 button {
-      display: flex;
-      flex-direction: column;
-      justify-content: center;
-      align-items: center;
-      font-size: 20px;
+    .registrate-4 #boton-ingresar {
       position: relative;
-      left: 50px;
-      top: 15px; }
-  footer ul li {
+      left: 170px; }
+  footer .title-foo {
+    font-size: 20px; }
+  footer .fa-brands {
+    width: 120px; }
+  footer .fa-instagram {
+    font-size: 30px; }
+  footer .fa-facebook {
+    font-size: 30px; }
+  footer .fa-whatsapp {
+    font-size: 30px; }
+  footer .pyp {
     position: relative;
-    left: 50px; }
-  .pyp {
-    text-align: center; }
-    .pyp a {
-      position: relative;
-      right: 60px !important; } }
-
-@media screen and (min-width: 1349px) and (min-width: 1024px) {
-  #boton-ingresar {
-    position: relative;
-    left: 175px; } }
+    right: 2px; }
+  footer .breadcrumb-item {
+    font-size: 15px; } }
 
 body {
   margin: 0%;

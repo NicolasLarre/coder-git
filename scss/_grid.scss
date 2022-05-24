@@ -1,14 +1,15 @@
   /* grid area */
 .h3-galeria {
    @include center;
-    font-size: 40px;
+    font-size: $letra-size -15 ;
     font-family: $estilo-letra;
+    margin: 2%;
   }
    
 .galeria { 
     display: grid;
-    grid-template-columns: repeat(3, 320px);
-    grid-template-rows: repeat(3,320px);
+    grid-template-columns: repeat(1, 320px);
+    grid-template-rows: repeat(9,320px);
     grid-gap: 5px;
     @include center;
     img {
@@ -23,8 +24,8 @@
 
 .galeria2 {
 display: grid;
-grid-template-columns: repeat(3, 320px);
-grid-template-rows: repeat(2,320px);
+grid-template-columns: repeat(1, 320px);
+grid-template-rows: repeat(5,320px);
 grid-gap: 5px;
 @include center;
   img {

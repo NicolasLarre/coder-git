@@ -1,7 +1,7 @@
 /* MOBILE */
 .nosotras-0 h3{ 
     @include center;
-    font-size: $letra-size;
+    font-size: $letra-size - 20;
     font-weight: bold;
     margin: 5%;
   }
@@ -17,7 +17,7 @@
 } 
    
 .nosotras-2 h3{
-     font-size: $letra-size - 10;
+     font-size: $letra-size - 20;
      font-style: normal;
      font-weight: bold;
      color: #080707;
@@ -34,7 +34,7 @@ img {
     }
    h3 {
       font-weight: bold;
-      font-size: $letra-size - 10;
+      font-size: $letra-size - 20;
       @include center;
     }
 }

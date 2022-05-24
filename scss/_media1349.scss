@@ -1,6 +1,30 @@
-@media screen and (min-width: 1349px){
+@media only screen and (min-width: 1349px){
+
+// Navegacion
+.navbar-nav {
+  padding-left: 74%;
+}
+.navbar-light .navbar-nav .nav-link {
+  font-size: 15px;
+}
 
 // index
+
+.foto-header {
+  height: 250px!important;
+  h3 {
+    max-height: 40px;
+    font-size: 30px;
+  }
+    p {
+      position: relative;
+      top: 35px;
+      font-size: $letra-size +30;
+    }
+  .off-abajo {
+      margin-top: 73px;
+}
+}
 
 #imagenes-index div img{ 
   width: 100%;
@@ -11,13 +35,14 @@
   margin-right: 1%;
 
 }
+
+// Productos
+#cartas {
+  margin-left: 10%;
+}
   
 
-
-#ubi-grande {
-    position: relative;
-    left: 50px;
-  }
+  // Grid
 
 .galeria { 
     display: grid;
@@ -48,6 +73,8 @@
     }
   }
 
+//  Registrate
+ 
   .englobador-registro {
     width: 500px;
     height: 100%;
@@ -126,34 +153,42 @@ color: white;
 input {
 font-size:$letra-size - 25;   
   }
-button {
-display: flex;
-flex-direction: column;
-justify-content:center;
-align-items: center;  
-font-size: $letra-size - 20;
-position: relative;
-left: 50px;
-top: 15px;
-}
-}
-footer ul li{
-  position: relative;
-  left: 50px;
-}
-.pyp {
-    @include center;
-    a {
-      position: relative;
-      right: 60px!important; 
-    } 
+
+#boton-ingresar {
+    position: relative;
+    left: 170px;}
+    
   }
 
-@media screen and (min-width: 1024px){
+// footer
+footer {
+  .title-foo {
+    font-size: 20px;
+  }
+  .fa-brands {
+    width: 120px;
+  }
+  .fa-instagram {
+    font-size: $letra-size - 10;
 
-#boton-ingresar { 
+  }
+  
+  .fa-facebook {
+    font-size: $letra-size - 10;
+
+  }
+  .fa-whatsapp {
+    font-size: $letra-size - 10;
+
+  }
+  .pyp {
     position: relative;
-    left: 175px;
+    right: 2px;
+  }
+  .breadcrumb-item {
+    font-size: 15px;
+  }
+
 }
-}  
+ 
 }

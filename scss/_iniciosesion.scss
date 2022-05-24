@@ -3,7 +3,7 @@
   background: url(../imagenes/fondolila.jpg);
 }    
 .sesion-1 h3{ 
-    font-size: $letra-size;
+    font-size: $letra-size - 22;
     margin: 5%;
     font-family: $estilo-letra;
     border: solid gray;
@@ -16,8 +16,8 @@
   .sesion-2 {
       position: relative;
       top: 10px;
-      width: 600px;
-      height: 550px;
+      width: 285px;
+      height: 345px;
       font-family: Arial, Helvetica, sans-serif;
       background-color: #b9b9b9;
       @include center;
@@ -25,21 +25,21 @@
       margin: auto;
       color: white;
     h3 { 
-      font-size: $letra-size + 20;
+      font-size: $letra-size - 10;
       padding: 25px;
       font-weight: bold;
     }
     div input { 
       border: solid hsl(192, 64%, 47%);
-      font-size: $letra-size;
+      font-size: $letra-size - 21;
       margin: 3%;
     }
     div p a{ 
       color: white;
       position: relative;
-      top: 15px;
+      top: 40px;
       text-decoration: none;
-      font-size: $letra-size;
+      font-size: $letra-size - 16;
     }
   }
          
@@ -55,19 +55,18 @@
     @include center;
     h3 {
       position: relative;
-      top: 10px;
-      font-size: $letra-size;
+      top: 11px;
+      font-size: $letra-size - 15;
       font-family: Arial, Helvetica, sans-serif;
-      margin: 3%;
+      margin: 4%;
     }
     input { 
       @include center;
       border: solid hsl(192, 64%, 47%);
       font-family: Arial, Helvetica, sans-serif;
       font-weight: bold;
-      font-size: $letra-size - 10;
-      position: relative;
-      bottom: 10px;
+      font-size: $letra-size - 27;
+      margin: 2%;
     }
   }
   

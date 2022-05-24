@@ -12,7 +12,7 @@
 
   .intro-1 h3{ 
     @include center;
-    font-size: $letra-size + 5;
+    font-size: $letra-size - 20;
     background-color: $color-secundary;
     font-family:$estilo-letra;
     font-weight: bold;
@@ -29,8 +29,7 @@
     display: flex;
     justify-content: center;
     position: relative;
-    right: 30px;
-    top: 25px;
+    right: 5px;
     ul {
       list-style-type: none;
      }
@@ -38,7 +37,7 @@
       text-decoration: none;
       color: #000;
     }
-     h3 { font-size: $letra-size - 10;
+     h3 { font-size: $letra-size - 25;
       font-weight: bold;} 
   
   }

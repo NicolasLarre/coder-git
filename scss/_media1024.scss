@@ -1,4 +1,4 @@
-@media screen and (min-width: 1024px){
+@media only screen and (min-width: 1024px){
   
     /* Barra de navegacion */
     #tama-navbar {
@@ -7,6 +7,9 @@
     nav { 
       font-size: $letra-size - 25;
       font-weight: bold;
+    }
+    .navbar-nav {
+      padding-left: 70%;
     }
     .dropdown-menu {
       font-size: 12px;
@@ -34,12 +37,24 @@
     .navbar-na {
       @include altura(100px);
     }
+    .navbar-light .navbar-nav .nav-link {
+      font-size: 12px;
+    }
     
     /* INDEX IMAGENES */
     
-    #imagenes-index div img{ 
+.foto-header {
+       p {
+         position: relative;
+         top: 50px;
+       }
+       .off-abajo {
+        margin-top: 11%
+      }
+      }
+ #imagenes-index div img{ 
       width: 100%;
-      height: 600px;
+      height: 500px;
       margin: 1%;
     
     }
@@ -52,8 +67,9 @@
       font-family: $estilo-letra;
       font-weight: bold;
     }
-    
-    /* Productos/ver mas */
+  #cartas {
+      margin-left: 2%;
+  }
     
   .ver-mas { 
       display: flex;
@@ -198,16 +214,43 @@
       }
     }
   .registrate-4 button {
-      font-size: $letra-size - 15;
+      font-size: $letra-size - 23;
     }
      
    #boton-ingresar {
      position: relative;
-     left: 250px;
+     left: 270px;
+     top: 20px;
    }
     /* Inicio del footer */
-    #tama-1024 {
-      font-size: $letra-size - 20;
+
+footer {
+      .title-foo {
+        font-size: 15px;
+      }
+      
+      .fa-brands {
+        width: 87px
+      }
+      
+      .fa-instagram {
+        font-size: $letra-size - 10;
+
+      }
+      
+      .fa-facebook {
+        font-size: $letra-size - 10;
+
+      }
+      .fa-whatsapp {
+        font-size: $letra-size - 10;
+
+      }
+      .pyp {
+        position: relative;
+        right: 2px;
+      }
+      
     }
   
   
