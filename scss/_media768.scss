@@ -58,6 +58,7 @@
    
    
    // footer
+   footer {
    .title-foo {
      font-size: 14px;
    }
@@ -68,6 +69,7 @@
   .pyp {
       @include center;
    }
+  }
   // Nosotras
   .nosotras div img {
       width: 70%;

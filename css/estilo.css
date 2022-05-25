@@ -37,10 +37,16 @@ footer {
   footer a {
     text-decoration: none; }
   footer ul li {
+    display: flex;
+    justify-content: center;
+    padding: 0%;
     font-weight: bold;
     text-decoration: none;
     list-style: none; }
   footer .pyp {
+    display: flex;
+    justify-content: center;
+    padding: 0%;
     text-align: center; }
     footer .pyp a {
       color: #212529;
@@ -388,12 +394,12 @@ nav {
     margin-left: 5%; }
   .intro-1 h3 {
     font-size: 20px; }
-  .title-foo {
+  footer .title-foo {
     font-size: 14px; }
-  .fa-brands {
+  footer .fa-brands {
     font-size: 20px;
     width: 59px; }
-  .pyp {
+  footer .pyp {
     text-align: center; }
   .nosotras div img {
     width: 70%; }
@@ -648,7 +654,6 @@ nav {
       margin-top: 73px; }
   #imagenes-index div img {
     width: 100%;
-    height: 550px;
     margin-top: 3%;
     margin-bottom: 1%;
     margin-left: 1%;
