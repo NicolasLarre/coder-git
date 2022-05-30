@@ -20,12 +20,13 @@
     }
     .off-abajo { 
       margin-top: 15%;
+      position: relative;
+      top: 9px;
     }
   }
  
 
 #imagenes-index div img{ 
-    width: 80%;
-    max-height: 750px;
+    width: 90%;
     margin: 1%;
   }

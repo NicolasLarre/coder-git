@@ -1,4 +1,4 @@
-@media only screen and (min-width: 1300px){
+@media only screen and (min-width: 1365px){
 
 // Navegacion
 .navbar-nav {
@@ -25,7 +25,7 @@
       font-size: $letra-size +30;
     }
   .off-abajo {
-      margin-top: 73px;
+      margin-top: 65px;
 }
 }
 
@@ -51,7 +51,7 @@
     grid-template-columns: repeat(3, 350px);
     grid-template-rows: repeat(3,350px);
     grid-gap: 5px;
-    margin-left: 130px;
+    justify-content: center;
     img {
       object-fit: cover;
       width: 70%;
@@ -65,7 +65,7 @@
     grid-template-columns: repeat(3, 350px);
     grid-template-rows: repeat(2,350px);
     grid-gap: 5px;
-    margin-left: 130px;
+    justify-content: center;
     img {
       object-fit: cover;
       width: 70%;
@@ -166,6 +166,10 @@ font-size:$letra-size - 25;
 footer {
   .title-foo {
     font-size: 20px;
+  }
+  #footer-ok {
+    display: flex;
+    justify-content: center;
   }
   .fa-brands {
     width: 120px;

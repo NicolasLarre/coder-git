@@ -17,11 +17,12 @@
     position: relative;
     top: 25px; }
   .foto-header .off-abajo {
-    margin-top: 15%; }
+    margin-top: 15%;
+    position: relative;
+    top: 9px; }
 
 #imagenes-index div img {
-  width: 80%;
-  max-height: 750px;
+  width: 90%;
   margin: 1%; }
 
 /* MOBILE */
@@ -43,6 +44,8 @@ footer {
     font-weight: bold;
     text-decoration: none;
     list-style: none; }
+  footer #footer-ok {
+    display: -webkit-box; }
   footer .pyp {
     display: flex;
     justify-content: center;
@@ -263,14 +266,7 @@ nav {
     font-size: 18px; }
 
 .registrate-4 button {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  font-size: 15px;
-  position: relative;
-  left: 70px;
-  top: 8px; }
+  font-size: 15px; }
 
 /* CONFIGURACION DE INICIO DE SESION */
 .fondo-ini-regis {
@@ -394,10 +390,9 @@ nav {
     position: relative;
     top: 45px; }
   .foto-header .off-abajo {
-    margin-top: 103px; }
+    margin-bottom: 10px; }
   #imagenes-index div img {
-    width: 50%;
-    height: 400px;
+    width: 55%;
     margin: 1%; }
   #cartas {
     margin-left: 5%; }
@@ -422,9 +417,12 @@ nav {
   .nosotras-3 img {
     width: 60%;
     margin-left: 20%; }
-  .registrate-4 button {
+  #boton-ingresar {
+    display: flex;
+    justify-content: center;
     position: relative;
-    left: 235px; }
+    left: 240px;
+    top: 10px; }
   .galeria {
     display: grid;
     grid-template-columns: repeat(3, 260px);
@@ -484,7 +482,7 @@ nav {
     margin-top: 11%; }
   #imagenes-index div img {
     width: 100%;
-    height: 500px;
+    height: 95%;
     margin: 1%; }
   /* Productos */
   .intro-1 h3 {
@@ -601,7 +599,7 @@ nav {
     font-size: 17px; }
   #boton-ingresar {
     position: relative;
-    left: 270px;
+    left: 275px;
     top: 20px; }
   /* Inicio del footer */
   footer .title-foo {
@@ -644,7 +642,7 @@ nav {
       height: 70%;
       margin-top: 50px; } }
 
-@media only screen and (min-width: 1300px) {
+@media only screen and (min-width: 1365px) {
   .navbar-nav {
     padding-left: 74%; }
   .navbar-light .navbar-nav .nav-link {
@@ -662,7 +660,7 @@ nav {
       top: 35px;
       font-size: 70px; }
     .foto-header .off-abajo {
-      margin-top: 73px; }
+      margin-top: 65px; }
   #imagenes-index div img {
     width: 100%;
     margin-top: 3%;
@@ -676,7 +674,7 @@ nav {
     grid-template-columns: repeat(3, 350px);
     grid-template-rows: repeat(3, 350px);
     grid-gap: 5px;
-    margin-left: 130px; }
+    justify-content: center; }
     .galeria img {
       object-fit: cover;
       width: 70%;
@@ -687,7 +685,7 @@ nav {
     grid-template-columns: repeat(3, 350px);
     grid-template-rows: repeat(2, 350px);
     grid-gap: 5px;
-    margin-left: 130px; }
+    justify-content: center; }
     .galeria2 img {
       object-fit: cover;
       width: 70%;
@@ -746,6 +744,9 @@ nav {
       left: 170px; }
   footer .title-foo {
     font-size: 20px; }
+  footer #footer-ok {
+    display: flex;
+    justify-content: center; }
   footer .fa-brands {
     width: 120px; }
   footer .fa-instagram {

@@ -38,13 +38,12 @@
       top: 45px;
     }
     .off-abajo {
-      margin-top: 103px;
+      margin-bottom: 10px;
     }
 
   }
   #imagenes-index div img {
-    width: 50%;
-    height: 400px;
+    width: 55%;
     margin: 1%;
   }
   // Productos
@@ -62,6 +61,7 @@
    .title-foo {
      font-size: 14px;
    }
+   
    .fa-brands {
      font-size: 20px;
      width: 59px;
@@ -95,10 +95,14 @@
   
   
   // Registro
-   .registrate-4 button {
-     position: relative;
-     left: 235px;
-   }
+     #boton-ingresar {
+      display: flex;
+      justify-content: center;
+      position: relative;
+      left: 240px;
+      top: 10px;
+    }
+     
    .galeria { 
     display: grid;
     grid-template-columns: repeat(3, 260px);
