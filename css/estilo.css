@@ -482,7 +482,6 @@ nav {
     margin-top: 11%; }
   #imagenes-index div img {
     width: 100%;
-    height: 95%;
     margin: 1%; }
   /* Productos */
   .intro-1 h3 {
@@ -651,7 +650,7 @@ nav {
     border: solid #929292;
     background-color: #929292; }
   .foto-header {
-    height: 250px !important; }
+    height: 250px; }
     .foto-header h3 {
       max-height: 40px;
       font-size: 30px; }
