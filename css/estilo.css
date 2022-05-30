@@ -217,13 +217,17 @@ nav {
   background-repeat: no-repeat; }
 
 .registrate-1 {
-  border: solid gray;
   text-align: center;
-  margin-top: 3%; }
+  margin-top: 3%;
+  padding: 10px;
+  display: flex;
+  justify-content: center; }
   .registrate-1 h3 {
-    color: #080808;
+    color: white;
     font-size: 20px;
-    font-family: "Heebo", sans-serif; }
+    font-family: "Heebo", sans-serif;
+    background-color: #b9b9b9;
+    padding: 10px; }
 
 .englobador-registro {
   height: 100%;
@@ -272,13 +276,18 @@ nav {
 .fondo-ini-regis {
   background: url(../imagenes/fondolila.jpg); }
 
-.sesion-1 h3 {
-  font-size: 18px;
-  margin: 5%;
-  font-family: "Heebo", sans-serif;
-  border: solid gray;
-  text-align: center;
-  color: #080606; }
+.sesion-1 {
+  padding: 10px;
+  display: flex;
+  justify-content: center; }
+  .sesion-1 h3 {
+    font-size: 18px;
+    margin: 5%;
+    font-family: "Heebo", sans-serif;
+    background-color: #b9b9b9;
+    text-align: center;
+    color: white;
+    padding: 10px; }
 
 /* Cuadro englobador y correo/contraseña */
 .sesion-2 {
@@ -527,7 +536,6 @@ nav {
     font-size: 25px;
     margin: 5%;
     font-family: 'Heebo', sans-serif;
-    border: solid gray;
     text-align: center; }
   /* Cuadro englobador y correo/contraseña */
   .sesion-2 {
@@ -641,6 +649,9 @@ nav {
     padding-left: 74%; }
   .navbar-light .navbar-nav .nav-link {
     font-size: 15px; }
+  .btn:hover {
+    border: solid #929292;
+    background-color: #929292; }
   .foto-header {
     height: 250px !important; }
     .foto-header h3 {
@@ -743,9 +754,6 @@ nav {
     font-size: 30px; }
   footer .fa-whatsapp {
     font-size: 30px; }
-  footer .pyp {
-    position: relative;
-    right: 2px; }
   footer .breadcrumb-item {
     font-size: 15px; } }
 

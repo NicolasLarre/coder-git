@@ -2,16 +2,22 @@
 .fondo-ini-regis {
   background: url(../imagenes/fondolila.jpg);
 }    
-.sesion-1 h3{ 
+.sesion-1 {
+  padding: 10px;
+  display: flex;
+  justify-content: center;
+
+   h3{ 
     font-size: $letra-size - 22;
     margin: 5%;
     font-family: $estilo-letra;
-    border: solid gray;
+    background-color:  #b9b9b9;
     text-align: center;
-    color: rgb(8, 6, 6);
+    color: white;
+    padding: 10px;  
     
   } 
-        
+}
   /* Cuadro englobador y correo/contraseña */
   .sesion-2 {
       position: relative;
