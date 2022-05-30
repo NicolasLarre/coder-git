@@ -642,7 +642,7 @@ nav {
       height: 70%;
       margin-top: 50px; } }
 
-@media only screen and (min-width: 1365px) {
+@media only screen and (min-width: 1366px) {
   .navbar-nav {
     padding-left: 74%; }
   .navbar-light .navbar-nav .nav-link {
